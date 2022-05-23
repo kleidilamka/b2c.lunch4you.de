@@ -5,7 +5,7 @@ import ServicesIcon from "../../assets/servicesIcon.png";
 const Services = () => {
     return (
         <div class={styles.root}>
-            <h2 style={{ color: "#FFAE42" }}>WOFÜR WIR STEHEN.</h2>
+            <h2 style={{ color: "#F89B1B" }}>WOFÜR WIR STEHEN.</h2>
             <h1 class={styles.title}>UNSER QUALITÄTSVERSPRECHEN. </h1>
             <h4 class={styles.text}>
                 Gesund & lecker, frisch & nachhaltig hergestellt mit Zutaten,

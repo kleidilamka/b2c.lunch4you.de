@@ -7,6 +7,7 @@ import Slider from "../../components/Slider";
 import ServicesTwo from "../../components/ServicesTwo";
 import Products from "../../components/Products";
 import FooterImages from "../../components/FooterImages";
+import Footer from "../../components/Footer";
 
 const Home = () => {
     return (
@@ -18,8 +19,17 @@ const Home = () => {
             <ServicesTwo />
             <Products />
             <FooterImages />
+            <Footer />
         </div>
     );
 };
+
+// <Reviews />
+// <Services />
+// <Slider />
+// <ServicesTwo />
+// <Products />
+// <FooterImages />
+// <Footer />
 
 export default Home;

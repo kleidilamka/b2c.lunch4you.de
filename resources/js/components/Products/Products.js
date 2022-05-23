@@ -5,7 +5,7 @@ import styles from "./Products.module.scss";
 const Products = () => {
     return (
         <div class={styles.root}>
-            <h1 style={{ color: "#FFAE42" }}>
+            <h1 style={{ color: "#F89B1B" }}>
                 FÜR JEDEN GESCHMACK DAS RICHTIGE DABEI.
             </h1>
             <h1 class={styles.title}>

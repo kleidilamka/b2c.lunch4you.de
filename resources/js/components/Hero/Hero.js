@@ -13,7 +13,7 @@ const Hero = () => {
                 }}
             ></div>
             <div class={styles.foodStylesContainer}>
-                <h2 style={{ color: "#FFAE42" }}>
+                <h2 style={{ color: "##F89B1B" }}>
                     INTERNATIONAL, VIELFÄLTIG UND NIEMALS LANGWEILIG.
                 </h2>
                 <h4 class={styles.title}>WORAUF HAST DU HEUTE LUST?</h4>
@@ -30,7 +30,7 @@ const Hero = () => {
                         </div>
                     ))}
                 </div>
-                <h2 style={{ color: "#FFAE42", marginTop: 100 }}>
+                <h2 style={{ color: "##F89B1B", marginTop: 100 }}>
                     LECKERE UND GESUNDE MAHLZEITEN.
                 </h2>
                 <h4 class={styles.title}>
