@@ -1,0 +1,40 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    text-align: center;
+    background-color: #ededed;
+    padding: 3em 0;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 0.5em;
+}
+
+.servicesList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin: 3em 2em 0 2em;
+}
+
+.text {
+    margin-top: 2em;
+}
