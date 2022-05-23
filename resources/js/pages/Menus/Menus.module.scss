@@ -6,6 +6,7 @@
     margin-top: 3em;
     text-align: center;
     padding: 3em 0;
+    background-color: #f6f4ed;
 }
 
 .title {
@@ -51,4 +52,11 @@
 
 .label {
     margin-left: 10px;
+}
+
+.menuItemContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }

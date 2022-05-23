@@ -1,5 +1,6 @@
 import React from "react";
 import MenuCategories from "../../components/MenuCategories";
+import MenuItem from "../../components/MenuItem";
 import MenuStyles from "../../components/MenuStyles";
 import styles from "./Menus.module.scss";
 
@@ -17,6 +18,10 @@ const Menus = () => {
             <MenuStyles />
             {/* Menu Categories */}
             <MenuCategories />
+            {/* Menu Item */}
+            <div class={styles.menuItemContainer}>
+                <MenuItem />
+            </div>
         </div>
     );
 };
