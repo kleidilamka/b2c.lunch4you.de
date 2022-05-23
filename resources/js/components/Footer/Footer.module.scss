@@ -31,6 +31,24 @@
 
 .middleContainer {
     background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+.uppercase {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.lowercase {
+    color: #fff;
+    margin-bottom: 0.2em;
+}
+
+.image {
+    height: 100px;
 }
 
 .bottomContainer {
