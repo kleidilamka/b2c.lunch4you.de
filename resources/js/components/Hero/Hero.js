@@ -1,6 +1,7 @@
 import React from "react";
 import FoodBackground from "../../assets/foodBackground.jpeg";
 import FoodStyle from "../../assets/foodStyle.png";
+import MenuStyles from "../MenuStyles";
 import styles from "./Hero.modules.scss";
 
 const Hero = () => {
@@ -17,19 +18,7 @@ const Hero = () => {
                     INTERNATIONAL, VIELFÄLTIG UND NIEMALS LANGWEILIG.
                 </h2>
                 <h4 class={styles.title}>WORAUF HAST DU HEUTE LUST?</h4>
-                <div class={styles.foodStylesList}>
-                    {Array.apply(null, { length: 7 }).map((e, i) => (
-                        <div class={styles.foodStyles} key={i}>
-                            <img
-                                src={FoodStyle}
-                                class={styles.foodStyleImage}
-                            />
-                            <h4 class={styles.label}>
-                                GERMAN <br /> STYLE
-                            </h4>
-                        </div>
-                    ))}
-                </div>
+                <MenuStyles />
                 <h2 style={{ color: "##F89B1B", marginTop: 100 }}>
                     LECKERE UND GESUNDE MAHLZEITEN.
                 </h2>
