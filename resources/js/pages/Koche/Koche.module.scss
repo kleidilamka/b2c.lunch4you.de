@@ -1,0 +1,77 @@
+.root {
+    height: 100%;
+}
+
+.bgImage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #a4cb38;
+    padding-bottom: 4em;
+}
+
+.text {
+    margin-top: 4em;
+}
+
+.cookersBackground {
+    background-size: auto 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 100%;
+    width: 40%;
+}
+
+.cookersInfoContainer {
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookersInfo {
+    height: 90%;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookers {
+    width: 80%;
+}
+
+.bigTitle {
+    font-size: 48px;
+}
+
+.title {
+    color: #bd006c;
+    margin-block: 1em;
+}
+
+.text {
+    font-size: 18;
+    font-weight: 800;
+    color: darkslategray;
+}
