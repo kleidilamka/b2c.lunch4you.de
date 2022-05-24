@@ -1,0 +1,30 @@
+.root {
+    background-color: #a4cb38;
+    height: 100%;
+    padding-bottom: 4em;
+}
+
+.bgImage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 48px;
+    margin-block: 1em;
+}
+
+.text {
+    margin-top: 4em;
+}
