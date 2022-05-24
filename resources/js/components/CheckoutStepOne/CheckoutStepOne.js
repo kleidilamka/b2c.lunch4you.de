@@ -79,6 +79,7 @@ const CheckoutStepOne = ({ setStep }) => {
                         ZURÜCK
                     </button>
                     <button
+                        onClick={() => setStep(2)}
                         class={styles.button}
                         style={{ backgroundColor: "#f89b1b" }}
                     >

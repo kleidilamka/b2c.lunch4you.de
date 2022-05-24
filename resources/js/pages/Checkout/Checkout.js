@@ -5,7 +5,7 @@ import CheckoutStepTwo from "../../components/CheckoutStepTwo";
 import styles from "./Checkout.module.scss";
 
 const Checkout = () => {
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(2);
 
     return (
         <div class={styles.root}>

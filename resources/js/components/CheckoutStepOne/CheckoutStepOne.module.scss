@@ -6,6 +6,11 @@
     margin-bottom: 5em;
 }
 
+.title {
+    font-size: 36px;
+    margin: 0.8em;
+}
+
 .container {
     height: 95%;
     width: 95%;
@@ -39,11 +44,6 @@
     flex-direction: row;
     justify-content: space-around;
     width: 30%;
-}
-
-.title {
-    font-size: 36px;
-    margin: 0.8em;
 }
 
 .quantity {
