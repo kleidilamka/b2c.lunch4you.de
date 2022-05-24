@@ -2,6 +2,7 @@ import React from "react";
 import MenuCategories from "../../components/MenuCategories";
 import MenuItem from "../../components/MenuItem";
 import MenuStyles from "../../components/MenuStyles";
+import Product from "../../components/Product";
 import styles from "./Menus.module.scss";
 
 const Menus = () => {
@@ -20,7 +21,7 @@ const Menus = () => {
             <MenuCategories />
             {/* Menu Item */}
             <div class={styles.menuItemContainer}>
-                <MenuItem />
+                <Product />
             </div>
         </div>
     );

@@ -9,7 +9,7 @@ import ProductDetails from "./pages/ProductDetails";
 function Main() {
     return (
         <div>
-            <ProductDetails />
+            <Menus />
         </div>
     );
 }
