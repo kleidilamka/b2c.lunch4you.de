@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 .topLeftContainer {
@@ -36,6 +35,7 @@
     display: flex;
     flex-direction: column;
     width: 45%;
+    margin-bottom: 4em;
 }
 
 .mainImage {
@@ -93,7 +93,6 @@
 }
 
 .menuStyles {
-    border: 1px solid red;
     height: 100%;
     display: flex;
     flex-direction: column;

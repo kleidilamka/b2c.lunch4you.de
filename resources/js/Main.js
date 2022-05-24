@@ -10,7 +10,7 @@ import Test from "./pages/Test";
 function Main() {
     return (
         <div>
-            <Menus />
+            <ProductDetails />
         </div>
     );
 }
