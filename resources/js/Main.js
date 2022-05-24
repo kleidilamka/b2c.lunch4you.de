@@ -5,6 +5,7 @@ import MenuStyles from "./components/MenuStyles";
 import Home from "./pages/Home";
 import Menus from "./pages/Menus";
 import ProductDetails from "./pages/ProductDetails";
+import Test from "./pages/Test";
 
 function Main() {
     return (

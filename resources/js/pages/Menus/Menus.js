@@ -21,7 +21,7 @@ const Menus = () => {
             <MenuCategories />
             {/* Menu Item */}
             <div class={styles.menuItemContainer}>
-                <Product />
+                <MenuItem />
             </div>
         </div>
     );
