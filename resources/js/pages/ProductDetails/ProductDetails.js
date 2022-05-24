@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import styles from "./ProductDetails.module.scss";
 import Food from "../../assets/foodBackground.jpeg";
 import HeartIcon from "../../assets/Icon_Herz_dark.svg";
+import { FiRefreshCcw } from "react-icons/fi";
+import MenuItem from "../../components/MenuItem";
+
 const ProductDetails = () => {
     const [active, setActive] = useState(false);
 
@@ -70,8 +73,16 @@ const ProductDetails = () => {
                 {/* Middle Container */}
                 <div class={styles.middleContainer}>
                     {/* Food Desription */}
-                    <h4>- ZUTATEN</h4>
-                    <h4>
+                    <h4
+                        style={{
+                            color: "#f89b1b",
+                            marginBlock: 18,
+                            fontSize: 24,
+                        }}
+                    >
+                        - ZUTATEN
+                    </h4>
+                    <h4 class={styles.descriptionContainer}>
                         Hähnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %,
                         Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %,
                         Möhren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 %
@@ -82,7 +93,12 @@ const ProductDetails = () => {
                     </h4>
                     {/* Food Details */}
                     {/* Allergies */}
-                    <h4 onClick={() => setActive(!active)}>+ ALLERGENE</h4>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
+                        + ALLERGENE
+                    </h4>
                     {active && (
                         <h4>
                             Hähnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2
@@ -96,7 +112,12 @@ const ProductDetails = () => {
                         </h4>
                     )}
                     {/* Nutrition */}
-                    <h4 onClick={() => setActive(!active)}>+ NÄHRWERTE</h4>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
+                        + NÄHRWERTE
+                    </h4>
                     {active && (
                         <h4>
                             Hähnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2
@@ -110,7 +131,12 @@ const ProductDetails = () => {
                         </h4>
                     )}
                     {/* Further Information */}
-                    <h4 onClick={() => setActive(!active)}>+ ALLERGENE</h4>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
+                        + ALLERGENE
+                    </h4>
                     {active && (
                         <h4>
                             Hähnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2
@@ -124,7 +150,12 @@ const ProductDetails = () => {
                         </h4>
                     )}
                     {/* Storage */}
-                    <h4 onClick={() => setActive(!active)}>+ ALLERGENE</h4>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
+                        + ALLERGENE
+                    </h4>
                     {active && (
                         <h4>
                             Hähnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2
@@ -141,9 +172,12 @@ const ProductDetails = () => {
                     <hr />
 
                     {/* FAQ */}
-                    <h4>FAQ</h4>
+                    <h4 style={{ marginBlock: 18, fontSize: 24 }}>FAQ</h4>
                     {/* WIE & WANN LIEFERT LUNCH4YOU?  */}
-                    <h4 onClick={() => setActive(!active)}>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
                         + WIE & WANN LIEFERT LUNCH4YOU?
                     </h4>
                     {active && (
@@ -159,7 +193,10 @@ const ProductDetails = () => {
                         </h4>
                     )}
                     {/*  WIE BEREITE ICH MEINE MENÜS ZU?  */}
-                    <h4 onClick={() => setActive(!active)}>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
                         + WIE BEREITE ICH MEINE MENÜS ZU?
                     </h4>
                     {active && (
@@ -175,7 +212,10 @@ const ProductDetails = () => {
                         </h4>
                     )}
                     {/* WOHER KOMMEN EURE ZUTATEN?  */}
-                    <h4 onClick={() => setActive(!active)}>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
                         + WOHER KOMMEN EURE ZUTATEN?
                     </h4>
                     {active && (
@@ -191,7 +231,10 @@ const ProductDetails = () => {
                         </h4>
                     )}
                     {/* WIE LANGE IST MEIN MENÜ HALTBAR? */}
-                    <h4 onClick={() => setActive(!active)}>
+                    <h4
+                        class={styles.boldText}
+                        onClick={() => setActive(!active)}
+                    >
                         + WIE LANGE IST MEIN MENÜ HALTBAR?
                     </h4>
                     {active && (
@@ -208,8 +251,57 @@ const ProductDetails = () => {
                     )}
                     <hr />
                     {/* Quantity Container */}
-                    <div class={styles.quantityContainer}></div>
+                    <div class={styles.cartContainer}>
+                        {/* Quantity */}
+                        <div class={styles.quantityContainer}>
+                            <div class={styles.quantityLeftContainer}>
+                                <h4 style={{ marginBlock: 12 }}>ANZAHL</h4>
+                                <div class={styles.quantity}>
+                                    <div class={styles.minusPlus}>
+                                        <h4>-</h4>
+                                    </div>
+                                    <h4>4</h4>
+                                    <div class={styles.minusPlus}>
+                                        <h4>+</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Price */}
+                            <div class={styles.priceContainer}>
+                                <h4 style={{ marginBlock: 12 }}>PREIS</h4>
+                                <h4>€ 8,50</h4>
+                            </div>
+                        </div>
+
+                        {/* Gesamt Container */}
+                        <div class={styles.gesamtContainer}>
+                            <h4 style={{ marginBlock: 12 }}>Gesamt</h4>
+                            <h4>€ 34,00</h4>
+                        </div>
+                    </div>
+                    {/* Buttons Container */}
+                    <div class={styles.buttonContainer}>
+                        <button class={styles.backButton}>ZURÜCK</button>
+                        <button class={styles.addToCart}>
+                            IN DEN WARENKORB
+                        </button>
+                    </div>
                 </div>
+                <h2
+                    style={{
+                        color: "#f89b1b",
+                        textAlign: "center",
+                        marginTop: 32,
+                    }}
+                >
+                    MEHR INSPIRATION GEFÄLLIG?
+                </h2>
+                <h2
+                    style={{ fontSize: 48, textAlign: "center", marginTop: 32 }}
+                >
+                    DIESE GERICHTE KÖNNTEN DIE AUCH GEFALLEN.
+                </h2>
             </div>
         </div>
     );
