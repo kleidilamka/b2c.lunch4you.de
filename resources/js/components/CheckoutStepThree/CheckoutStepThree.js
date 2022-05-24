@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CheckoutStepThree.module.scss";
 import Payments from "../../assets/payments.png";
 
-const CheckoutStepThree = () => {
+const CheckoutStepThree = ({ setStep }) => {
     return (
         <div class={styles.root}>
             <h2 class={styles.bigTitle}>
@@ -156,17 +156,17 @@ const CheckoutStepThree = () => {
                 <hr />
                 <div class={styles.row}>
                     <button
-                        onClick={() => setStep(1)}
+                        onClick={() => setStep(2)}
                         class={styles.backButton}
                     >
                         ZURÜCK
                     </button>
                     <button
-                        onClick={() => setStep(3)}
+                        onClick={() => setStep(4)}
                         class={styles.forwardButton}
-                        style={{ width: 200 }}
+                        style={{ width: 400 }}
                     >
-                        ANMELDEN
+                        BESTELLUNG ABSENDEN UND BEZAHLEN
                     </button>
                 </div>
             </div>
