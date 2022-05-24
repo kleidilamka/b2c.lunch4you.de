@@ -1,0 +1,116 @@
+.root {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 5em;
+}
+
+.container {
+    height: 95%;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 2em;
+}
+
+.cartContainer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-block: 1em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2em;
+}
+
+.image {
+    height: 100%;
+    width: 250px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thirdColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.title {
+    font-size: 36px;
+    margin: 0.8em;
+}
+
+.quantity {
+    border: 1px solid #f89b1b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.minusContainer {
+    background-color: #f89b1b;
+    width: 30%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.plusContainer {
+    background-color: #f89b1b;
+    width: 30%;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.minusPlus {
+    color: #fff;
+}
+
+.deleteContainer {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 10;
+}
+
+.couponContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.coupon {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    padding-left: 12px;
+    height: 40px;
+    width: 300px;
+    border-style: none;
+    border: 1px solid #c3c3c3;
+    border-radius: 12px;
+}
+
+.button {
+    border-style: none;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+}
