@@ -13,7 +13,7 @@ const Dashboard = () => {
             <h2 class={styles.bigTitle}>HALLO SEBASTIAN.</h2>
             <div class={styles.container}>
                 <Sidebar />
-                <EditPassword />
+                <ClientOrders />
             </div>
         </div>
     );
