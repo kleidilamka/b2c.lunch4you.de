@@ -1,4 +1,5 @@
 import React from "react";
+import BonusPoints from "../../components/BonusPoints";
 import ClientOrders from "../../components/ClientOrders";
 import EditContactData from "../../components/EditContactData";
 import EditPassword from "../../components/EditPassword";
@@ -13,7 +14,7 @@ const Dashboard = () => {
             <h2 class={styles.bigTitle}>HALLO SEBASTIAN.</h2>
             <div class={styles.container}>
                 <Sidebar />
-                <ClientOrders />
+                <BonusPoints />
             </div>
         </div>
     );

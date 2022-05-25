@@ -1,0 +1,38 @@
+.wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+}
+
+.editProfile {
+    background-color: #fff;
+    height: 350px;
+    width: 80%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profileTitle {
+    font-size: 36px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0.5em;
+}
+
+.orangeText {
+    color: #f89b1b;
+}
