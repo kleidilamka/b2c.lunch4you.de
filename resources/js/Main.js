@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import MenuStyles from "./components/MenuStyles";
 import Checkout from "./pages/Checkout";
+import Faq from "./pages/Faq";
 import Home from "./pages/Home";
 import Koche from "./pages/Koche";
 import Lieferanten from "./pages/Lieferanten";
@@ -13,7 +14,7 @@ import Test from "./pages/Test";
 function Main() {
     return (
         <div>
-            <Koche />
+            <Faq />
         </div>
     );
 }
