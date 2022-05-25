@@ -10,11 +10,12 @@ import Lieferanten from "./pages/Lieferanten";
 import Menus from "./pages/Menus";
 import ProductDetails from "./pages/ProductDetails";
 import Test from "./pages/Test";
+import UberLunch4You from "./pages/UberLunch4You";
 
 function Main() {
     return (
         <div>
-            <Faq />
+            <UberLunch4You />
         </div>
     );
 }
