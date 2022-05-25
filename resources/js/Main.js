@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import MenuStyles from "./components/MenuStyles";
+import Navbar from "./components/Navbar";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Checkout from "./pages/Checkout";
@@ -18,6 +19,7 @@ import UberLunch4You from "./pages/UberLunch4You";
 function Main() {
     return (
         <div>
+            <Navbar />
             <Dashboard />
         </div>
     );
