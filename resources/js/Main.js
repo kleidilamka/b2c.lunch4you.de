@@ -5,6 +5,7 @@ import MenuStyles from "./components/MenuStyles";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Checkout from "./pages/Checkout";
+import Dashboard from "./pages/Dashboard";
 import Faq from "./pages/Faq";
 import Home from "./pages/Home";
 import Koche from "./pages/Koche";
@@ -17,7 +18,7 @@ import UberLunch4You from "./pages/UberLunch4You";
 function Main() {
     return (
         <div>
-            <BlogPost />
+            <Dashboard />
         </div>
     );
 }
