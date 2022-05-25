@@ -22,8 +22,12 @@ const UberLunch4You = () => {
                     ditioritas demoluptat
                 </h4>
             </div>
-            <h2>GUTSCHEIN BESTELLEN</h2>
-            <h2>WUNSCHMOTIV WÄHLEN</h2>
+            <h2 style={{ color: "#F89B1B", marginTop: 48, fontSize: 24 }}>
+                GUTSCHEIN BESTELLEN
+            </h2>
+            <h2 style={{ fontSize: 48, marginBlock: 24 }}>
+                WUNSCHMOTIV WÄHLEN
+            </h2>
             <div class={styles.motiveContainer}>
                 {Array.apply(null, { length: 3 }).map((e, i) => (
                     <div
