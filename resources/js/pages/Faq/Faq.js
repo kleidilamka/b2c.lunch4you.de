@@ -3,7 +3,6 @@ import FarmBackground from "../../assets/farmBackground.jpeg";
 import styles from "./Faq.module.scss";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-import { set } from "lodash";
 
 const Faq = () => {
     const [active, setActive] = useState();

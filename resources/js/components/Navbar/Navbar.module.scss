@@ -37,4 +37,33 @@
 .secondRow {
     height: 60px;
     background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navIconOne {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 60px;
+}
+
+.navIcon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 35px;
+}
+
+.navContainer {
+    width: 80%;
+    margin-left: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
 }

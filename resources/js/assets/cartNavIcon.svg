@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 37.5 26.7" style="enable-background:new 0 0 37.5 26.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000164482355528118833210000002894873108879833737_);fill:#2B363D;}
+	.st1{fill:#2B363D;}
+	.st2{clip-path:url(#SVGID_00000106853595355801350910000001634464019519970978_);fill:#2B363D;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="37.5" height="26.7"/>
+	</defs>
+	<clipPath id="SVGID_00000075121112598600015360000004106898851169983888_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path style="clip-path:url(#SVGID_00000075121112598600015360000004106898851169983888_);fill:#2B363D;" d="M13.3,23.6
+		c0,1.7,1.5,3.1,3.3,3.1c1.8,0,3.3-1.4,3.3-3.1c0-1.7-1.5-3.1-3.3-3.1C14.8,20.5,13.3,21.9,13.3,23.6"/>
+	<path style="clip-path:url(#SVGID_00000075121112598600015360000004106898851169983888_);fill:#2B363D;" d="M28.3,23.6
+		c0,1.7,1.5,3.1,3.3,3.1c1.8,0,3.3-1.4,3.3-3.1c0-1.7-1.5-3.1-3.3-3.1C29.8,20.5,28.3,21.9,28.3,23.6"/>
+</g>
+<polygon class="st1" points="12.2,0.4 17,12.3 32.6,12.3 37.5,0.4 "/>
+<g>
+	<defs>
+		<rect id="SVGID_00000121261596511623769430000008744832323721360817_" width="37.5" height="26.7"/>
+	</defs>
+	<clipPath id="SVGID_00000067218634660652979700000004664874913469185937_">
+		<use xlink:href="#SVGID_00000121261596511623769430000008744832323721360817_"  style="overflow:visible;"/>
+	</clipPath>
+	<path style="clip-path:url(#SVGID_00000067218634660652979700000004664874913469185937_);fill:#2B363D;" d="M33.4,18H14.1
+		c-0.7,0-1.3-0.4-1.5-1L6.7,3.1h-5C0.7,3.1,0,2.4,0,1.6C0,0.7,0.7,0,1.6,0h6.2c0.7,0,1.3,0.4,1.5,1l5.8,13.9h18.2
+		c0.9,0,1.6,0.7,1.6,1.6C35,17.3,34.3,18,33.4,18"/>
+</g>
+</svg>
