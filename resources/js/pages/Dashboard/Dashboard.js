@@ -1,5 +1,7 @@
 import React from "react";
+import ClientOrders from "../../components/ClientOrders";
 import EditContactData from "../../components/EditContactData";
+import EditPassword from "../../components/EditPassword";
 import EditProfile from "../../components/EditProfile";
 import Sidebar from "../../components/Sidebar";
 import styles from "./Dashboard.module.scss";
@@ -11,7 +13,7 @@ const Dashboard = () => {
             <h2 class={styles.bigTitle}>HALLO SEBASTIAN.</h2>
             <div class={styles.container}>
                 <Sidebar />
-                <EditContactData />
+                <EditPassword />
             </div>
         </div>
     );
