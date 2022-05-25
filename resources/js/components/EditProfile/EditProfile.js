@@ -19,7 +19,7 @@ const EditProfile = () => {
                         <h2 class={styles.label}>GEBURTSDATUM</h2>
                         <input class={styles.input} placeholder="01.01.1980" />
                     </div>
-                    <div class={styles.col}>
+                    <div class={styles.col} style={{ marginRight: 20 }}>
                         <h2 class={styles.label}>NACHNAME</h2>
                         <input class={styles.input} placeholder="Mustermann" />
                         <h2 class={styles.label}>TELEFONNUMMER</h2>
