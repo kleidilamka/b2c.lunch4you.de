@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import FarmBackground from "../../assets/farmBackground.jpeg";
 import styles from "./Faq.module.scss";
 import { IoIosArrowForward } from "react-icons/io";
@@ -6,7 +6,12 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { set } from "lodash";
 
 const Faq = () => {
-    const [active, setActive] = useState(false);
+    const [active, setActive] = useState();
+
+    useEffect(() => {
+        setActive();
+    }, []);
+
     return (
         <div class={styles.root}>
             <div
@@ -34,9 +39,9 @@ const Faq = () => {
                 </h4>
             </div>
             <div class={styles.faq}>
-                {active ? (
+                {active === 1 ? (
                     <div
-                        onClick={() => setActive(false)}
+                        onClick={() => setActive()}
                         class={styles.questionContainer}
                         style={{ marginBottom: 8 }}
                     >
@@ -45,7 +50,7 @@ const Faq = () => {
                     </div>
                 ) : (
                     <div
-                        onClick={() => setActive(true)}
+                        onClick={() => setActive(1)}
                         class={styles.questionContainer}
                         style={{ marginBottom: 12 }}
                     >
@@ -53,7 +58,36 @@ const Faq = () => {
                         <h2>FRAGE 01</h2>
                     </div>
                 )}
-                {active && (
+                {active === 1 && (
+                    <h2 class={styles.answer}>
+                        As sunti consequ iaerion sequae aut erchil estrum
+                        aturessi dollabo. Axim hiliqui busdaec estrunt exerore
+                        pudanis sum facepro videre pro Nam
+                    </h2>
+                )}
+                <hr style={{ width: "100%", marginLeft: 100 }} />
+            </div>
+            <div class={styles.faq}>
+                {active === 2 ? (
+                    <div
+                        onClick={() => setActive()}
+                        class={styles.questionContainer}
+                        style={{ marginBottom: 8 }}
+                    >
+                        <MdOutlineKeyboardArrowDown size={25} color={"#000"} />
+                        <h2>FRAGE 02</h2>
+                    </div>
+                ) : (
+                    <div
+                        onClick={() => setActive(2)}
+                        class={styles.questionContainer}
+                        style={{ marginBottom: 12 }}
+                    >
+                        <IoIosArrowForward size={20} color={"#000"} />
+                        <h2>FRAGE 02</h2>
+                    </div>
+                )}
+                {active === 2 && (
                     <h2 class={styles.answer}>
                         As sunti consequ iaerion sequae aut erchil estrum
                         aturessi dollabo. Axim hiliqui busdaec estrunt exerore
