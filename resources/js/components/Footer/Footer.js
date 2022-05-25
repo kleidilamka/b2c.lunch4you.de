@@ -23,7 +23,11 @@ const Footer = () => {
                 </h1>
             </div>
             <div class={styles.topContainer}>
-                <FaInstagram size={30} color={"white"} />
+                <FaInstagram
+                    style={{ paddingLeft: 50 }}
+                    size={30}
+                    color={"white"}
+                />
                 <FaFacebookSquare size={30} color={"white"} />
             </div>
             <div class={styles.middleContainer}>
@@ -48,7 +52,9 @@ const Footer = () => {
                 </div>
             </div>
             <div class={styles.bottomContainer}>
-                <h4>© 2022 Creativ-Cult All rights reserved.</h4>
+                <h4 style={{ paddingLeft: 50 }}>
+                    © 2022 Creativ-Cult All rights reserved.
+                </h4>
             </div>
         </div>
     );

@@ -33,7 +33,14 @@ const Navbar = () => {
             {/* Second Nav Row */}
             <div class={styles.secondRow}>
                 <div class={styles.navContainer}>
-                    <div style={{ display: "flex", flexDirection: "row" }}>
+                    <div
+                        class={styles.firstNavItem}
+                        style={{
+                            display: "flex",
+                            flexDirection: "row",
+                            position: "relative",
+                        }}
+                    >
                         <h2 class={styles.navTitle}>ÜBER LUNCH4YOU </h2>
                         <MdOutlineKeyboardArrowDown size={20} />
                     </div>
