@@ -4,15 +4,16 @@ import CheckoutStepThree from "../../components/CheckoutStepThree";
 import CheckoutStepTwo from "../../components/CheckoutStepTwo";
 import styles from "./Checkout.module.scss";
 import ForkIcon from "../../assets/forkIcon.svg";
+import CheckoutIcon from "../../assets/Checkout_Icon.svg";
 
 const Checkout = () => {
-    const [step, setStep] = useState(3);
+    const [step, setStep] = useState(4);
 
     return (
         <div class={styles.root}>
             {step === 4 ? (
                 <div style={{ textAlign: "center" }}>
-                    <h2 class={styles.title}>
+                    <h2 class={`${styles.title} ${styles.font}`}>
                         JETZT SCHWINGEN WIR DIE KOCHLÖFFEL.
                     </h2>
                     <h2 class={styles.bigTitle}>
@@ -21,8 +22,10 @@ const Checkout = () => {
                 </div>
             ) : (
                 <div style={{ textAlign: "center" }}>
-                    <h2 class={styles.title}>LOS GEHT'S.</h2>
-                    <h2 class={styles.bigTitle}>
+                    <h2 class={`${styles.title} ${styles.font}`}>
+                        LOS GEHT'S.
+                    </h2>
+                    <h2 class={`${styles.bigTitle} ${styles.font}`}>
                         DEINE BESTELLUNG IN NUR 3 SCHRITTEN.
                     </h2>
                 </div>
@@ -51,19 +54,14 @@ const Checkout = () => {
             ) : step === 3 ? (
                 <CheckoutStepThree setStep={setStep} />
             ) : (
-                <div class={styles.iconsContainer}>
-                    <img src={ForkIcon} class={styles.icon} />
-                    <div class={styles.dashedLine} />
-                    <img src={ForkIcon} class={styles.icon} />
-
-                    <div class={styles.dashedLine} />
-
-                    <img src={ForkIcon} class={styles.icon} />
-                </div>
+                <img src={CheckoutIcon} class={styles.image} />
             )}
             {step === 4 && (
                 <div>
-                    <h4 style={{ marginTop: 24, fontSize: 18 }}>
+                    <h4
+                        class={styles.font}
+                        style={{ marginTop: 24, fontSize: 24, fontWeight: 500 }}
+                    >
                         Deine Lieferung erfolgt am 17.11.2021, ca. 9.00 Uhr
                     </h4>
                 </div>
