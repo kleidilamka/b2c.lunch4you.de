@@ -19,7 +19,7 @@ function Main() {
     return (
         <div>
             <Navbar />
-            <Checkout />
+            <Dashboard />
         </div>
     );
 }
