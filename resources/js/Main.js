@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import MenuStyles from "./components/MenuStyles";
 import Navbar from "./components/Navbar";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
@@ -20,7 +19,8 @@ function Main() {
     return (
         <div>
             <Navbar />
-            <Home />
+            <ProductDetails />
+            <Test />
         </div>
     );
 }

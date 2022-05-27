@@ -6,7 +6,7 @@ const Reviews = () => {
     return (
         <div class={styles.root}>
             <div class={styles.container}>
-                <h2 style={{ color: "##F89B1B" }}>
+                <h2 style={{ color: "#F89B1B" }}>
                     DIE ZUFRIEDENHEIT UNSERER KUNDEN SPRICHT FÜR SICH.
                 </h2>
                 <h1 class={styles.text}>DANKE, FÜR EUER TOLLES FEEDBACK.</h1>

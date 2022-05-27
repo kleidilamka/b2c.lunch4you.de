@@ -15,7 +15,7 @@ const ProductDetails = () => {
                 <div class={styles.topContainer}>
                     {/* Top Left Container */}
                     <div class={styles.topLeftContainer}>
-                        <h1>THAI-CURRY</h1>
+                        <h1 class={styles.font}>THAI-CURRY</h1>
                         <h2 class={styles.text}>
                             Cremig, scharf und einfach ein Genuss! Die thailän-
                             dische Küche wäre ohne ihr anregendes Thai Curry nur
@@ -32,21 +32,31 @@ const ProductDetails = () => {
                         <div class={styles.foodDetailsList}>
                             {Array.apply(null, { length: 3 }).map((e, i) => (
                                 <div class={styles.foodDetailsContainer}>
-                                    <h5>Low Carb</h5>
+                                    <h5 class={styles.font}>Low Carb</h5>
                                 </div>
                             ))}
                         </div>
-                        <h2 style={{ marginTop: 20, marginBottom: 20 }}>
+                        <h2
+                            class={styles.font}
+                            style={{ marginTop: 30, marginBottom: 20 }}
+                        >
                             NÄHRWERTE PRO 100 GRAMM
                         </h2>
                         <div class={styles.foodNutritionList}>
                             {Array.apply(null, { length: 5 }).map((e, i) => (
                                 <div class={styles.foodNutritionDetails}>
-                                    <div class={styles.roundedLabel}>103</div>
+                                    <div
+                                        class={`${styles.roundedLabel} ${styles.font}`}
+                                    >
+                                        103
+                                    </div>
                                     <h5
+                                        class={styles.font}
                                         style={{
                                             alignSelf: "center",
                                             marginTop: 10,
+                                            marginRight: 5,
+                                            fontSize: 18,
                                         }}
                                     >
                                         PROTEIN
@@ -65,7 +75,7 @@ const ProductDetails = () => {
                         </div>
                         <div class={styles.menuStyles}>
                             <img src={HeartIcon} class={styles.menuStyleLogo} />
-                            <h1>ASIA STYLE</h1>
+                            <h1 class={styles.font}>ASIA STYLE</h1>
                         </div>
                     </div>
                 </div>
@@ -74,6 +84,7 @@ const ProductDetails = () => {
                 <div class={styles.middleContainer}>
                     {/* Food Desription */}
                     <h4
+                        class={styles.font}
                         style={{
                             color: "#f89b1b",
                             marginBlock: 18,
@@ -82,7 +93,7 @@ const ProductDetails = () => {
                     >
                         - ZUTATEN
                     </h4>
-                    <h4 class={styles.descriptionContainer}>
+                    <h4 class={`${styles.descriptionContainer} ${styles.font}`}>
                         Hähnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %,
                         Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %,
                         Möhren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 %
@@ -94,7 +105,7 @@ const ProductDetails = () => {
                     {/* Food Details */}
                     {/* Allergies */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + ALLERGENE
@@ -113,7 +124,7 @@ const ProductDetails = () => {
                     )}
                     {/* Nutrition */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + NÄHRWERTE
@@ -132,7 +143,7 @@ const ProductDetails = () => {
                     )}
                     {/* Further Information */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + ALLERGENE
@@ -151,7 +162,7 @@ const ProductDetails = () => {
                     )}
                     {/* Storage */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + ALLERGENE
@@ -175,7 +186,7 @@ const ProductDetails = () => {
                     <h4 style={{ marginBlock: 18, fontSize: 24 }}>FAQ</h4>
                     {/* WIE & WANN LIEFERT LUNCH4YOU?  */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + WIE & WANN LIEFERT LUNCH4YOU?
@@ -194,7 +205,7 @@ const ProductDetails = () => {
                     )}
                     {/*  WIE BEREITE ICH MEINE MENÜS ZU?  */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + WIE BEREITE ICH MEINE MENÜS ZU?
@@ -213,7 +224,7 @@ const ProductDetails = () => {
                     )}
                     {/* WOHER KOMMEN EURE ZUTATEN?  */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + WOHER KOMMEN EURE ZUTATEN?
@@ -232,7 +243,7 @@ const ProductDetails = () => {
                     )}
                     {/* WIE LANGE IST MEIN MENÜ HALTBAR? */}
                     <h4
-                        class={styles.boldText}
+                        class={`${styles.boldText} ${styles.font}`}
                         onClick={() => setActive(!active)}
                     >
                         + WIE LANGE IST MEIN MENÜ HALTBAR?
@@ -255,13 +266,22 @@ const ProductDetails = () => {
                         {/* Quantity */}
                         <div class={styles.quantityContainer}>
                             <div class={styles.quantityLeftContainer}>
-                                <h4 style={{ marginBlock: 12 }}>ANZAHL</h4>
+                                <h4
+                                    class={`${styles.boldText} ${styles.font}`}
+                                    style={{ marginBlock: 12 }}
+                                >
+                                    ANZAHL
+                                </h4>
                                 <div class={styles.quantity}>
-                                    <div class={styles.minusPlus}>
+                                    <div
+                                        class={`${styles.minus} ${styles.font}`}
+                                    >
                                         <h4>-</h4>
                                     </div>
-                                    <h4>4</h4>
-                                    <div class={styles.minusPlus}>
+                                    <h4 class={styles.font}>4</h4>
+                                    <div
+                                        class={`${styles.plus} ${styles.font}`}
+                                    >
                                         <h4>+</h4>
                                     </div>
                                 </div>
@@ -269,36 +289,61 @@ const ProductDetails = () => {
 
                             {/* Price */}
                             <div class={styles.priceContainer}>
-                                <h4 style={{ marginBlock: 12 }}>PREIS</h4>
-                                <h4>€ 8,50</h4>
+                                <h4
+                                    class={`${styles.boldText} ${styles.font}`}
+                                    style={{ marginBlock: 12 }}
+                                >
+                                    PREIS
+                                </h4>
+                                <h4 class={`${styles.boldText} ${styles.font}`}>
+                                    € 8,50
+                                </h4>
                             </div>
                         </div>
 
                         {/* Gesamt Container */}
                         <div class={styles.gesamtContainer}>
-                            <h4 style={{ marginBlock: 12 }}>Gesamt</h4>
-                            <h4>€ 34,00</h4>
+                            <h4
+                                class={`${styles.boldText} ${styles.font}`}
+                                style={{ marginBlock: 12 }}
+                            >
+                                Gesamt
+                            </h4>
+                            <h4 class={`${styles.boldText} ${styles.font}`}>
+                                € 34,00
+                            </h4>
                         </div>
                     </div>
                     {/* Buttons Container */}
                     <div class={styles.buttonContainer}>
-                        <button class={styles.backButton}>ZURÜCK</button>
-                        <button class={styles.addToCart}>
+                        <button class={`${styles.backButton} ${styles.font}`}>
+                            ZURÜCK
+                        </button>
+                        <button class={`${styles.addToCart} ${styles.font}`}>
                             IN DEN WARENKORB
                         </button>
                     </div>
                 </div>
                 <h2
+                    class={styles.font}
                     style={{
                         color: "#f89b1b",
                         textAlign: "center",
-                        marginTop: 32,
+                        marginTop: 100,
+                        fontSize: 36,
                     }}
                 >
                     MEHR INSPIRATION GEFÄLLIG?
                 </h2>
                 <h2
-                    style={{ fontSize: 48, textAlign: "center", marginTop: 32 }}
+                    class={styles.font}
+                    style={{
+                        fontSize: 42,
+                        textAlign: "center",
+                        marginTop: 20,
+                        width: "110%",
+                        color: "#454E53",
+                    }}
                 >
                     DIESE GERICHTE KÖNNTEN DIE AUCH GEFALLEN.
                 </h2>

@@ -32,9 +32,15 @@
 
 .text {
     color: #3c3c3c;
-    font-weight: 400;
     margin-top: 0.5em;
     width: 95%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.font {
+    font-family: "Poppins", sans-serif;
 }
 
 .topRightContainer {
@@ -67,8 +73,9 @@
 
 .foodDetailsContainer {
     border: 1px solid black;
-    border-radius: 12px;
-    padding: 5px;
+    border-radius: 15px;
+    padding-block: 5px;
+    padding-inline: 18px;
     margin-top: 50px;
     margin-right: 30px;
 }
@@ -88,7 +95,7 @@
 .roundedLabel {
     height: 80px;
     width: 80px;
-    background-color: #3c3c3c;
+    background-color: #8a8d8e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,6 +117,7 @@
     height: 100px;
     width: 100px;
     margin-right: 50px;
+    margin-top: 1em;
 }
 
 .descriptionContainer {
@@ -139,7 +147,7 @@
     width: 100px;
 }
 
-.minusPlus {
+.minus {
     background-color: #f89b1b;
     width: 30%;
     text-align: center;
@@ -149,6 +157,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.plus {
+    background-color: #f89b1b;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cartContainer {
@@ -160,6 +184,10 @@
 .boldText {
     font-size: 24px;
     margin-block: 0.5em;
+}
+
+.priceText {
+    font-size: 24px;
 }
 
 .buttonContainer {
