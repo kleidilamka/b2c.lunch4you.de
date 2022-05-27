@@ -12,11 +12,16 @@ const Lieferanten = () => {
                 }}
             ></div>
             <div class={styles.container}>
-                <h2 class={styles.text}>UNSERE LIEFERANTEN.</h2>
-                <h2 class={styles.title}>
+                <h2 class={`${styles.text} ${styles.font}`}>
+                    UNSERE LIEFERANTEN.
+                </h2>
+                <h2 class={`${styles.title} ${styles.font}`}>
                     REGIONALE ERZEUGUNG & KURZE LIEFERWEGE.
                 </h2>
-                <h4 style={{ width: "80%", fontSize: 24 }}>
+                <h4
+                    class={`${styles.description} ${styles.font}`}
+                    style={{ width: "80%" }}
+                >
                     Occum aut quatemquo quia num int officat empostrum quidem
                     venihic iandaer namenis estrum quodis dolore sumquaectur
                     anditat emporitatet ipsum dolup- taquo temquis exerovit

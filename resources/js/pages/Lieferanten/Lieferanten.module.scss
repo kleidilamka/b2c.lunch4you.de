@@ -18,13 +18,24 @@
     align-items: center;
     text-align: center;
     color: #fff;
+    padding-bottom: 4em;
 }
 
 .title {
-    font-size: 48px;
-    margin-block: 1em;
+    font-size: 60px;
+    margin-bottom: 0.3em;
 }
 
 .text {
-    margin-top: 4em;
+    font-size: 48px;
+    margin-top: 1em;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }
