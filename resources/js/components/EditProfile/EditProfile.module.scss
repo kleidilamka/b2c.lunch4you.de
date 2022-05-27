@@ -21,8 +21,12 @@
 }
 
 .profileTitle {
+    font-size: 48px;
+    margin-bottom: 0.5em;
+}
+
+.label {
     font-size: 36px;
-    margin-bottom: 1em;
 }
 
 .input {
@@ -39,7 +43,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 2em;
+    margin-block: 1em;
 }
 
 .backButton {
@@ -50,7 +54,7 @@
     width: 160px;
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .forwardButton {
@@ -60,5 +64,9 @@
     width: 160px;
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }
