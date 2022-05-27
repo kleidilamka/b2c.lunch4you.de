@@ -7,16 +7,21 @@ const Footer = () => {
     return (
         <div class={styles.root}>
             <div class={styles.subscribeContainer}>
-                <h2 style={{ color: "#bd006c" }}>LECKER NEWSELLTER.</h2>
-                <h1 class={styles.title}>
-                    JETZT FÜR UNSEREN NEWSLETTER ANMELDEN UND GRATISVERSAND
-                    SICHERN!
+                <h2
+                    class={`${styles.title} ${styles.font}`}
+                    style={{ color: "#bd006c" }}
+                >
+                    LECKER NEWSELLTER.
+                </h2>
+                <h1 class={`${styles.bigTitle} ${styles.font}`}>
+                    JETZT FÜR UNSEREN NEWSLETTER ANMELDEN <br />
+                    UND GRATISVERSAND SICHERN!
                     <div class={styles.inputs}>
                         <input
                             class={styles.input}
                             placeholder="E-Mail eingeben"
                         />
-                        <button class={styles.button}>
+                        <button class={`${styles.button} ${styles.font}`}>
                             NEWSLETTER BESTELLEN
                         </button>
                     </div>
@@ -28,7 +33,11 @@ const Footer = () => {
                     size={30}
                     color={"white"}
                 />
-                <FaFacebookSquare size={30} color={"white"} />
+                <FaFacebookSquare
+                    size={30}
+                    color={"white"}
+                    style={{ marginLeft: 20 }}
+                />
             </div>
             <div class={styles.middleContainer}>
                 <div class={styles.middleLeftContainer}>

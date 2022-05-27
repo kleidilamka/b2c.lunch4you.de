@@ -9,6 +9,7 @@
     padding-bottom: 2em;
     border: 1px solid #f89b1b;
     border-radius: 12px;
+    text-align: start;
 }
 
 .topContainer {
@@ -35,9 +36,17 @@
 
 .title {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 24px;
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .label {
     margin-left: 10px;
+    font-size: 24px;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.ctgTitle {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 32px;
 }

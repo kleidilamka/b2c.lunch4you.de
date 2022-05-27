@@ -27,14 +27,25 @@
     text-align: center;
 }
 
+.coloredTitle {
+    font-size: 36px;
+    font-weight: 600;
+}
+
 .title {
-    font-size: 42px;
+    font-size: 60px;
     width: 90%;
     margin-top: 0.3em;
+    font-weight: 600;
 }
 
 .text {
-    font-size: 22px;
+    font-size: 28px;
     width: 85%;
     margin-top: 1em;
+    font-weight: 500;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }

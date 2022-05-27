@@ -7,7 +7,9 @@ const MenuCategories = () => {
             {/* Categories */}
             <div class={styles.categoriesContainer}>
                 <div class={styles.topContainer}>
-                    <h2>SPEZIELLE WÜNSCHE? ABER GERNE!</h2>
+                    <h2 class={styles.ctgTitle}>
+                        SPEZIELLE WÜNSCHE? ABER GERNE!
+                    </h2>
                 </div>
                 {/* Column 1 */}
                 <div class={styles.bottomContainer}>
@@ -21,7 +23,7 @@ const MenuCategories = () => {
                                     name="scales"
                                 />
                                 <label class={styles.label} for="scales">
-                                    Scales
+                                    Deutsch
                                 </label>
                             </div>
                         ))}
@@ -37,7 +39,7 @@ const MenuCategories = () => {
                                     name="scales"
                                 />
                                 <label class={styles.label} for="scales">
-                                    Scales
+                                    Deutsch
                                 </label>
                             </div>
                         ))}
@@ -53,7 +55,7 @@ const MenuCategories = () => {
                                     name="scales"
                                 />
                                 <label class={styles.label} for="scales">
-                                    Scales
+                                    Deutsch
                                 </label>
                             </div>
                         ))}
