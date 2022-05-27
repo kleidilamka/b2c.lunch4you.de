@@ -19,7 +19,7 @@ function Main() {
     return (
         <div>
             <Navbar />
-            <UberLunch4You />
+            <Blog />
         </div>
     );
 }

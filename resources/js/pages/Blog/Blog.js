@@ -8,9 +8,14 @@ const Blog = () => {
     return (
         <div class={styles.root}>
             <div class={styles.container}>
-                <h2 class={styles.text}>UNSER BLOG.</h2>
-                <h2 class={styles.title}>AKTUELLES RUND UM LUNCH4YOU.</h2>
-                <h4 style={{ width: "80%", fontSize: 24 }}>
+                <h2 class={`${styles.text} ${styles.font}`}>UNSER BLOG.</h2>
+                <h2 class={`${styles.title} ${styles.font}`}>
+                    AKTUELLES RUND UM LUNCH4YOU.
+                </h2>
+                <h4
+                    class={`${styles.description} ${styles.font}`}
+                    style={{ width: "80%" }}
+                >
                     Occum aut quatemquo quia num int officat empostrum quidem
                     venihic iandaer namenis estrum quodis dolore sumquaectur
                     anditat emporitatet ipsum dolup- taquo temquis exerovit
@@ -41,49 +46,100 @@ const Blog = () => {
                     <div class={styles.blogPost}>
                         <img src={Food} class={styles.blogImage} />
                         <div class={styles.blogPostBottomContainer}>
-                            <h2 style={{ marginTop: 12 }}>ARTIKEL 01</h2>
-                            <h4 class={styles.text}>vendis et venimus</h4>
-                            <h4 class={styles.text}>
+                            <h2
+                                class={styles.font}
+                                style={{ marginTop: 12, fontSize: 36 }}
+                            >
+                                ARTIKEL 01
+                            </h2>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
+                                vendis et venimus
+                            </h4>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
                                 Sed quid enim dolupta tatiat et mo vent alitatem
                                 utem asperias re eos num sae vendis et alita-
-                                tem utem alitatem venimus.
+                                tem utem alitatem.
                             </h4>
                         </div>
                         <div class={styles.blogInfoContainer}>
-                            <h4>By Admin</h4>
-                            <h4>3 Kommentare</h4>
+                            <h4
+                                class={styles.font}
+                                style={{ color: "#8a8d8e", fontSize: 24 }}
+                            >
+                                By Admin
+                            </h4>
+                            <h4
+                                class={styles.font}
+                                style={{ color: "#8a8d8e", fontSize: 24 }}
+                            >
+                                3 Kommentare
+                            </h4>
                         </div>
                     </div>
                     <div class={styles.blogPost}>
                         <img src={LongImage} class={styles.blogImage} />
                         <div class={styles.blogPostBottomContainer}>
-                            <h2 style={{ marginTop: 12 }}>ARTIKEL 01</h2>
-                            <h4 class={styles.text}>vendis et venimus</h4>
-                            <h4 class={styles.text}>
+                            <h2
+                                class={styles.font}
+                                style={{ marginTop: 12, fontSize: 36 }}
+                            >
+                                ARTIKEL 02
+                            </h2>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
+                                vendis et venimus
+                            </h4>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
                                 Sed quid enim dolupta tatiat et mo vent alitatem
                                 utem asperias re eos num sae vendis et alita-
-                                tem utem alitatem venimus.
+                                tem utem alitatem.
                             </h4>
                         </div>
                         <div class={styles.blogInfoContainer}>
-                            <h4>By Admin</h4>
-                            <h4>3 Kommentare</h4>
+                            <h4
+                                class={styles.font}
+                                style={{ color: "#8a8d8e", fontSize: 24 }}
+                            >
+                                By Admin
+                            </h4>
+                            <h4
+                                class={styles.font}
+                                style={{ color: "#8a8d8e", fontSize: 24 }}
+                            >
+                                3 Kommentare
+                            </h4>
                         </div>
                     </div>
                     <div class={styles.blogPost}>
                         <img src={CookersBackground} class={styles.blogImage} />
                         <div class={styles.blogPostBottomContainer}>
-                            <h2 style={{ marginTop: 12 }}>ARTIKEL 01</h2>
-                            <h4 class={styles.text}>vendis et venimus</h4>
-                            <h4 class={styles.text}>
+                            <h2
+                                class={styles.font}
+                                style={{ marginTop: 12, fontSize: 36 }}
+                            >
+                                ARTIKEL 03
+                            </h2>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
+                                vendis et venimus
+                            </h4>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
                                 Sed quid enim dolupta tatiat et mo vent alitatem
                                 utem asperias re eos num sae vendis et alita-
-                                tem utem alitatem venimus.
+                                tem utem alitatem.
                             </h4>
                         </div>
                         <div class={styles.blogInfoContainer}>
-                            <h4>By Admin</h4>
-                            <h4>3 Kommentare</h4>
+                            <h4
+                                class={styles.font}
+                                style={{ color: "#8a8d8e", fontSize: 24 }}
+                            >
+                                By Admin
+                            </h4>
+                            <h4
+                                class={styles.font}
+                                style={{ color: "#8a8d8e", fontSize: 24 }}
+                            >
+                                3 Kommentare
+                            </h4>
                         </div>
                     </div>
                 </div>
