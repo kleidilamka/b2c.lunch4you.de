@@ -16,14 +16,25 @@ const Navbar = () => {
                 <div class={styles.titleContainer}>
                     <div style={{ display: "flex", flexDirection: "row" }}>
                         <img src={HeartIconOrange} class={styles.heartIcon} />
-                        <h2 style={{ color: "#f89b1b", marginLeft: 10 }}>
+                        <h2
+                            style={{
+                                color: "#f89b1b",
+                                marginLeft: 10,
+                                marginTop: 5,
+                            }}
+                        >
                             FRISCH GEKOCHT, DIREKT ZU DIR NACH HAUSE!
                         </h2>
                     </div>
                     <div style={{ display: "flex", flexDirection: "row" }}>
-                        <img src={ExpressVersand} class={styles.heartIcon} />
-                        <h2 style={{ color: "#fff", marginLeft: 10 }}>
-                            {" "}
+                        <img src={ExpressVersand} class={styles.expressIcon} />
+                        <h2
+                            style={{
+                                color: "#fff",
+                                marginLeft: 10,
+                                marginTop: 5,
+                            }}
+                        >
                             EXPRESSVERSAND IN DEUTSCHLAND
                         </h2>
                     </div>
@@ -41,26 +52,28 @@ const Navbar = () => {
                             position: "relative",
                         }}
                     >
-                        <h2 class={styles.navTitle}>ÜBER LUNCH4YOU </h2>
+                        <h2 class={`${styles.navTitle} ${styles.font}`}>
+                            ÜBER LUNCH4YOU{" "}
+                        </h2>
                         <MdOutlineKeyboardArrowDown size={20} />
                     </div>
                     <div>
-                        <h2>UNSERE MENÜS</h2>
+                        <h2 class={styles.font}>UNSERE MENÜS</h2>
                     </div>
                     <div>
-                        <h2>LIEFERANTEN</h2>
+                        <h2 class={styles.font}>LIEFERANTEN</h2>
                     </div>
                     <div>
-                        <h2>KÖCHE</h2>
+                        <h2 class={styles.font}>KÖCHE</h2>
                     </div>
                     <div>
-                        <h2>BLOG</h2>
+                        <h2 class={styles.font}>BLOG</h2>
                     </div>
                     <div>
-                        <h2>FAQ</h2>
+                        <h2 class={styles.font}>FAQ</h2>
                     </div>
                     <div>
-                        <h2>KONTAKT</h2>
+                        <h2 class={styles.font}>KONTAKT</h2>
                     </div>
                 </div>
                 <img src={LoginIcon} class={styles.navIconOne} />
