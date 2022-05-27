@@ -8,13 +8,25 @@
 
 .container {
     background-color: #4e637a;
-    height: 350px;
+    height: 430px;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding-top: 2em;
+    text-align: center;
+}
+
+.orangeTitle {
+    font-size: 48px;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.bigTitle {
+    font-size: 60px;
+    color: #fff;
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .starsContainer {
@@ -23,6 +35,17 @@
 
 .text {
     color: #fff;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bottomText {
+    color: #fff;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 50px;
 }
 
 .swiper {

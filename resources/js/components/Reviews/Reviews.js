@@ -6,10 +6,12 @@ const Reviews = () => {
     return (
         <div class={styles.root}>
             <div class={styles.container}>
-                <h2 style={{ color: "#F89B1B" }}>
+                <h2 class={styles.orangeTitle} style={{ color: "#F89B1B" }}>
                     DIE ZUFRIEDENHEIT UNSERER KUNDEN SPRICHT FÜR SICH.
                 </h2>
-                <h1 class={styles.text}>DANKE, FÜR EUER TOLLES FEEDBACK.</h1>
+                <h2 class={styles.bigTitle}>
+                    DANKE, FÜR EUER TOLLES FEEDBACK.
+                </h2>
                 <div class={styles.starsContainer}>
                     <AiFillStar size={25} />
                     <AiFillStar size={25} />
@@ -17,9 +19,9 @@ const Reviews = () => {
                     <AiFillStar size={25} />
                     <AiFillStar size={25} />
                 </div>
-                <h4 class={styles.text}>
+                <h4 class={styles.text} style={{ fontWeight: "bold" }}>
                     Sehr leckeres und vor allem frisches (!) Essen zu echt
-                    fairen Preisen!{" "}
+                    fairen Preisen!
                 </h4>
                 <h4 class={styles.text} style={{ width: "80%" }}>
                     Ich kenn' die Gerichte aus der Firma, wo wir einen
@@ -31,7 +33,9 @@ const Reviews = () => {
                     Lieferung, geschmacklich genauso gut. Würde hier auch so
                     Essen bestellen.
                 </h4>
-                <h4 class={styles.text}>Bianca Schmidt, Google Bewertung</h4>
+                <h4 class={styles.bottomText}>
+                    Bianca Schmidt, Google Bewertung
+                </h4>
             </div>
         </div>
     );
