@@ -6,7 +6,7 @@ import styles from "./Checkout.module.scss";
 import ForkIcon from "../../assets/forkIcon.svg";
 
 const Checkout = () => {
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(2);
 
     return (
         <div class={styles.root}>

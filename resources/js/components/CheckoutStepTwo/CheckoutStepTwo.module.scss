@@ -13,7 +13,8 @@
 
 .title {
     font-size: 36px;
-    margin: 0.8em;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
 }
 
 .container {
@@ -36,15 +37,15 @@
 
 .input {
     height: 40px;
-    width: 85%;
+    width: 90%;
     border: 1px solid #c3c3c3;
     border-radius: 7px;
     padding-left: 12px;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .textAreaContainer {
-    width: 92%;
+    width: 95%;
 }
 
 .textArea {
@@ -61,7 +62,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 92%;
+    width: 96%;
     margin-top: 2em;
 }
 
@@ -71,9 +72,10 @@
     height: 60px;
     width: 150px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #ea4c46;
     opacity: 0.9;
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .forwardButton {
@@ -82,18 +84,28 @@
     height: 60px;
     width: 300px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #f89b1b;
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .loginContainer {
 }
 
 .forgetPassword {
-    margin-top: 2em;
+    margin-top: 1em;
     position: absolute;
     text-align: right;
-    width: 92%;
+    width: 96%;
     font-size: 18px;
     color: #f89b1b;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.inputTitle {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 36px;
 }
