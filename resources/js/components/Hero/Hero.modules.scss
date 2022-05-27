@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.font {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+}
+
 .bgImage {
     background-position: center;
     background-size: cover;
@@ -21,6 +26,7 @@
 .title {
     font-size: 48px;
     margin-top: 0.5em;
+    font-weight: bold;
 }
 
 .foodStylesList {
@@ -50,8 +56,11 @@
     font-weight: 800;
 }
 
+.textContainer {
+    width: 80%;
+}
+
 .text {
     font-size: 18px;
-    margin-top: 2em;
-    color: #3c3c3c;
+    margin-top: 1em;
 }
