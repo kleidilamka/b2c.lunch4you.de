@@ -8,9 +8,14 @@ const BlogPost = () => {
     return (
         <div class={styles.root}>
             <div class={styles.container}>
-                <h2 class={styles.text}>UNSER BLOG.</h2>
-                <h2 class={styles.title}>AKTUELLES RUND UM LUNCH4YOU.</h2>
-                <h4 style={{ width: "80%", fontSize: 24 }}>
+                <h2 class={`${styles.text} ${styles.font}`}>UNSER BLOG.</h2>
+                <h2 class={`${styles.title} ${styles.font}`}>
+                    AKTUELLES RUND UM LUNCH4YOU.
+                </h2>
+                <h4
+                    class={`${styles.description} ${styles.font}`}
+                    style={{ width: "80%", fontSize: 24 }}
+                >
                     Occum aut quatemquo quia num int officat empostrum quidem
                     venihic iandaer namenis estrum quodis dolore sumquaectur
                     anditat emporitatet ipsum dolup- taquo temquis exerovit
@@ -28,11 +33,16 @@ const BlogPost = () => {
             <div class={styles.postContainer}>
                 <img src={Food} class={styles.image} />
                 <div class={styles.articleContainer}>
-                    <h2>ARTIKEL 03</h2>
-                    <h2 class={styles.articleText}>
+                    <h2 class={styles.font} style={{ fontSize: 36 }}>
+                        ARTIKEL 03
+                    </h2>
+                    <h2
+                        class={`${styles.articleText} ${styles.font}`}
+                        style={{ fontStyle: "italic" }}
+                    >
                         vendis et venimu, 04.08.2020
                     </h2>
-                    <h4 class={styles.articleText}>
+                    <h4 class={`${styles.articleText} ${styles.font}`}>
                         Sed quid enim dolupta tatiat et mo vent alitatem utem
                         asperias re eos num sae vendis et alitatem utem alitatem
                         venimus. Sed quid enim dolupta tatiat et mo vent
@@ -64,8 +74,12 @@ const BlogPost = () => {
                         alitatem utem alitatem venimus.
                     </h4>
                     <h4
-                        class={styles.articleText}
-                        style={{ fontWeight: "bold" }}
+                        class={`${styles.articleText} ${styles.font}`}
+                        style={{
+                            fontWeight: "bold",
+                            fontSize: 24,
+                            color: "#3c3c3c",
+                        }}
                     >
                         By Admin
                     </h4>
@@ -74,7 +88,7 @@ const BlogPost = () => {
 
             <div class={styles.commentsContainer}>
                 <div class={styles.commentWrapper}>
-                    <h2>ARTIKEL 03</h2>
+                    <h2 class={`${styles.text} ${styles.font}`}>ARTIKEL 03</h2>
                     <h2 class={styles.articleText}>
                         vendis et venimu, 04.08.2020
                     </h2>
@@ -88,9 +102,9 @@ const BlogPost = () => {
                         Antworten
                     </h2>
                     {/* Comments */}
-                    {Array.apply(null, { length: 2 }).map((e, i) => (
+                    {Array.apply(null, { length: 1 }).map((e, i) => (
                         <div>
-                            <h4 class={styles.articleText}>
+                            <h4 class={`${styles.articleText} ${styles.font}`}>
                                 Name, 21.07.2021: Sed quid enim dolupta tatiat
                                 enim dolupta tatiat et mo vent enim dolupta
                                 tatiat et mo vent enim dolupta tatiat et mo vent
@@ -100,11 +114,13 @@ const BlogPost = () => {
                             {/* Open Reply Container */}
                             <button
                                 onClick={() => setOpenCommentInput(true)}
-                                class={styles.antwortenButton}
+                                class={`${styles.antwortenButton} ${styles.font}`}
                                 style={{
                                     color: openCommentInput
                                         ? "#f89b1b"
                                         : "black",
+                                    fontSize: 24,
+                                    marginBottom: 20,
                                 }}
                             >
                                 Antworten
@@ -133,18 +149,20 @@ const BlogPost = () => {
                                             onClick={() =>
                                                 setOpenCommentInput(false)
                                             }
-                                            class={styles.button}
+                                            class={`${styles.button} ${styles.font}`}
                                             style={{
                                                 backgroundColor: "#ea4c46",
                                                 opacity: 0.9,
+                                                fontSize: 24,
                                             }}
                                         >
                                             ABBRECHEN
                                         </button>
                                         <button
-                                            class={styles.button}
+                                            class={`${styles.button} ${styles.font}`}
                                             style={{
                                                 backgroundColor: "#f89b1b",
+                                                fontSize: 24,
                                             }}
                                         >
                                             ANTWORT SENDEN
@@ -156,19 +174,34 @@ const BlogPost = () => {
                     ))}
                     {/* New Comment Container */}
                     <div class={styles.commentInputContainer}>
-                        <h2 style={{ marginBlock: 10 }}>
+                        <h2
+                            class={`${styles.text} ${styles.font}`}
+                            style={{ marginBlock: 10, fontSize: 30 }}
+                        >
                             NEUEN KOMMENTAR ERSTELLEN{" "}
                         </h2>
                         <div class={styles.inputContainer}>
                             <div class={styles.newCommentInputContainer}>
-                                <h2 style={{ marginBlock: 10 }}>NAME*</h2>
+                                <h2
+                                    class={`${styles.text} ${styles.font}`}
+                                    style={{ marginBlock: 10, fontSize: 30 }}
+                                >
+                                    NAME*
+                                </h2>
                                 <input
                                     class={styles.newCommentInput}
                                     placeholder="Name eingeben"
                                 />
                             </div>
                             <div class={styles.newCommentInputContainer}>
-                                <h2 style={{ marginLeft: 12, marginBlock: 10 }}>
+                                <h2
+                                    class={`${styles.text} ${styles.font}`}
+                                    style={{
+                                        marginLeft: 12,
+                                        marginBlock: 10,
+                                        fontSize: 30,
+                                    }}
+                                >
                                     E-MAIL-ADRESSE*
                                 </h2>
                                 <input
@@ -187,7 +220,7 @@ const BlogPost = () => {
                         <div class={styles.inputContainer}>
                             <button
                                 onClick={() => setOpenCommentInput(false)}
-                                class={styles.button}
+                                class={`${styles.button} ${styles.font}`}
                                 style={{
                                     backgroundColor: "#ea4c46",
                                     opacity: 0.9,
@@ -199,7 +232,7 @@ const BlogPost = () => {
                                 ABBRECHEN
                             </button>
                             <button
-                                class={styles.button}
+                                class={`${styles.button} ${styles.font}`}
                                 style={{
                                     backgroundColor: "#f89b1b",
                                     height: 70,

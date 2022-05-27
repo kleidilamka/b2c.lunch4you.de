@@ -16,12 +16,24 @@
 }
 
 .title {
-    font-size: 48px;
-    margin-block: 1em;
+    font-size: 60px;
+    margin-bottom: 0.3em;
 }
 
 .text {
-    margin-top: 2em;
+    font-size: 48px;
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .postContainer {
@@ -31,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: lightgrey;
+    background-color: #d3d3d3;
 }
 
 .image {
@@ -48,7 +60,8 @@
 .articleText {
     font-weight: 400;
     margin-block: 1em;
-    font-size: 18px;
+    font-size: 22px;
+    color: #3c3c3c;
 }
 
 .commentsContainer {
