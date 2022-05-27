@@ -11,14 +11,21 @@
     margin: 0.8em;
 }
 
+.mainTitle {
+    font-size: 36px;
+    margin-top: 0.5em;
+}
+
 .title {
-    margin-block: 1em;
-    font-weight: 800;
+    font-size: 24px;
+}
+
+.orangeText {
+    color: #f89b1b;
 }
 
 .text {
-    font-weight: 400;
-    color: #3c3c3c;
+    font-weight: 500;
 }
 
 .container {
@@ -46,7 +53,7 @@
     height: 60px;
     width: 150px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #ea4c46;
     opacity: 0.9;
 }
@@ -57,7 +64,7 @@
     height: 60px;
     width: 300px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #f89b1b;
 }
 
@@ -67,9 +74,10 @@
 
 .label {
     margin-left: 0.5em;
-    font-size: 18px;
+    font-size: 24px;
     margin-block: 2em;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .input {
@@ -78,4 +86,8 @@
     width: 200px;
     border-radius: 12px;
     border: 1px solid #c3c3c3;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }
