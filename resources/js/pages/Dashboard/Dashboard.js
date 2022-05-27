@@ -18,7 +18,7 @@ const Dashboard = () => {
             </h2>
             <div class={styles.container}>
                 <Sidebar />
-                <EditProfile />
+                <ClientOrders />
             </div>
         </div>
     );
