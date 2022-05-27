@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import FarmBackground from "../../assets/farmBackground.jpeg";
+import Header from "../../assets/Header_FAQ.jpg";
+
 import styles from "./Faq.module.scss";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const Faq = () => {
-    const [active, setActive] = useState();
+    const [active, setActive] = useState(1);
 
     useEffect(() => {
-        setActive();
+        setActive(1);
     }, []);
 
     return (
@@ -16,13 +18,20 @@ const Faq = () => {
             <div
                 class={styles.bgImage}
                 style={{
-                    backgroundImage: `url("${FarmBackground}")`,
+                    backgroundImage: `url("${Header}")`,
                 }}
             ></div>
             <div class={styles.container}>
-                <h2 class={styles.text}>WICHTIG ZU WISSEN.</h2>
-                <h2 class={styles.title}>ANTWORTEN AUF VIELE FRAGEN.</h2>
-                <h4 style={{ width: "80%", fontSize: 24 }}>
+                <h2 class={`${styles.text} ${styles.font}`}>
+                    WICHTIG ZU WISSEN.
+                </h2>
+                <h2 class={`${styles.title} ${styles.font}`}>
+                    ANTWORTEN AUF VIELE FRAGEN.
+                </h2>
+                <h4
+                    class={`${styles.description} ${styles.font}`}
+                    style={{ width: "80%" }}
+                >
                     Occum aut quatemquo quia num int officat empostrum quidem
                     venihic iandaer namenis estrum quodis dolore sumquaectur
                     anditat emporitatet ipsum dolup- taquo temquis exerovit
@@ -45,7 +54,9 @@ const Faq = () => {
                         style={{ marginBottom: 8 }}
                     >
                         <MdOutlineKeyboardArrowDown size={25} color={"#000"} />
-                        <h2>FRAGE 01</h2>
+                        <h2 class={`${styles.question} ${styles.font}`}>
+                            FRAGE 01
+                        </h2>
                     </div>
                 ) : (
                     <div
@@ -54,15 +65,19 @@ const Faq = () => {
                         style={{ marginBottom: 12 }}
                     >
                         <IoIosArrowForward size={20} color={"#000"} />
-                        <h2>FRAGE 01</h2>
+                        <h2 class={`${styles.question} ${styles.font}`}>
+                            FRAGE 01
+                        </h2>
                     </div>
                 )}
                 {active === 1 && (
-                    <h2 class={styles.answer}>
-                        As sunti consequ iaerion sequae aut erchil estrum
-                        aturessi dollabo. Axim hiliqui busdaec estrunt exerore
-                        pudanis sum facepro videre pro Nam
-                    </h2>
+                    <div class={styles.answerContainer}>
+                        <h2 class={`${styles.answer} ${styles.font}`}>
+                            As sunti consequ iaerion sequae aut erchil estrum
+                            aturessi dollabo. Axim hiliqui busdaec estrunt
+                            exerore pudanis sum facepro videre pro Nam
+                        </h2>
+                    </div>
                 )}
                 <hr style={{ width: "100%", marginLeft: 100 }} />
             </div>
@@ -74,7 +89,9 @@ const Faq = () => {
                         style={{ marginBottom: 8 }}
                     >
                         <MdOutlineKeyboardArrowDown size={25} color={"#000"} />
-                        <h2>FRAGE 02</h2>
+                        <h2 class={`${styles.question} ${styles.font}`}>
+                            FRAGE 02
+                        </h2>
                     </div>
                 ) : (
                     <div
@@ -83,15 +100,19 @@ const Faq = () => {
                         style={{ marginBottom: 12 }}
                     >
                         <IoIosArrowForward size={20} color={"#000"} />
-                        <h2>FRAGE 02</h2>
+                        <h2 class={`${styles.question} ${styles.font}`}>
+                            FRAGE 02
+                        </h2>
                     </div>
                 )}
                 {active === 2 && (
-                    <h2 class={styles.answer}>
-                        As sunti consequ iaerion sequae aut erchil estrum
-                        aturessi dollabo. Axim hiliqui busdaec estrunt exerore
-                        pudanis sum facepro videre pro Nam
-                    </h2>
+                    <div class={styles.answerContainer}>
+                        <h2 class={`${styles.answer} ${styles.font}`}>
+                            As sunti consequ iaerion sequae aut erchil estrum
+                            aturessi dollabo. Axim hiliqui busdaec estrunt
+                            exerore pudanis sum facepro videre pro Nam
+                        </h2>
+                    </div>
                 )}
                 <hr style={{ width: "100%", marginLeft: 100 }} />
             </div>
