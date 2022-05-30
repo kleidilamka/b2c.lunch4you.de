@@ -1,8 +1,15 @@
 import React from "react";
 import styles from "./MenuItem.module.scss";
 import Food from "../../assets/foodBackground.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const MenuItem = () => {
+    const navigate = useNavigate();
+
+    const goToProductDetails = () => {
+        navigate("/product");
+    };
+
     return (
         <div class={styles.root}>
             {Array.apply(null, { length: 7 }).map((e, i) => (
@@ -67,6 +74,7 @@ const MenuItem = () => {
                         </div>
                         {/* Button */}
                         <button
+                            onClick={goToProductDetails}
                             class={`${styles.button} ${styles.font}`}
                             style={{ fontSize: 28, fontWeight: "bold" }}
                         >

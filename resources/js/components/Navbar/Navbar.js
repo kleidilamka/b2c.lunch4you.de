@@ -92,8 +92,12 @@ const Navbar = () => {
                         <h2 class={styles.font}>KONTAKT</h2>
                     </div>
                 </div>
-                <img src={LoginIcon} class={styles.navIconOne} />
-                <img src={CartIcon} class={styles.navIcon} />
+                <Link to="/checkout">
+                    <img src={LoginIcon} class={styles.navIconOne} />
+                </Link>
+                <Link to="/checkout">
+                    <img src={CartIcon} class={styles.navIcon} />
+                </Link>
             </div>
         </div>
     );
