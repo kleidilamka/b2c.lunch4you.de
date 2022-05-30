@@ -1,7 +1,6 @@
 .root {
     background-color: #a4cb38;
     height: 100%;
-    padding-bottom: 4em;
 }
 
 .bgImage {
@@ -39,45 +38,73 @@
 .font {
     font-family: "Alumni Sans", sans-serif;
 }
-.root {
-    background-color: #a4cb38;
+
+.bgImage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 4em;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 0.3em;
+}
+
+.text {
+    font-size: 48px;
+    margin-top: 1em;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.kocheBackground {
     height: 100%;
-    padding-bottom: 4em;
-}
-
-.bgImage {
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-}
-
-.container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: #fff;
     padding-bottom: 4em;
 }
 
-.title {
-    font-size: 60px;
-    margin-bottom: 0.3em;
+.cookContainer {
+    width: 80%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.text {
-    font-size: 48px;
-    margin-top: 1em;
+.cookDetails {
+    width: 55%;
+    background-color: #fff;
+    opacity: 0.9;
+    text-align: center;
+    padding-inline: 2em;
 }
 
-.description {
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: 1em;
-}
-
-.font {
-    font-family: "Alumni Sans", sans-serif;
+.cookPicture {
+    height: 100%;
+    width: 45%;
+    background-repeat: no-repeat;
 }

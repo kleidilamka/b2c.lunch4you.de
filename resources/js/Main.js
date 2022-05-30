@@ -8,7 +8,7 @@ import Checkout from "./pages/Checkout";
 import Dashboard from "./pages/Dashboard";
 import Faq from "./pages/Faq";
 import Home from "./pages/Home";
-import Koche from "./pages/Koche";
+import Koche from "./pages/Koche/Koche";
 import Lieferanten from "./pages/Lieferanten";
 import Menus from "./pages/Menus";
 import ProductDetails from "./pages/ProductDetails";

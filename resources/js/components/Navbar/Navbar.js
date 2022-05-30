@@ -72,7 +72,7 @@ const Navbar = () => {
                             <h2 class={styles.font}>LIEFERANTEN</h2>
                         </div>
                     </Link>
-                    <Link to="/lieferanten" class={styles.removeUnderline}>
+                    <Link to="/koche" class={styles.removeUnderline}>
                         <div>
                             <h2 class={styles.font}>KÖCHE</h2>
                         </div>
