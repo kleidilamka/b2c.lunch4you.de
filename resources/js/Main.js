@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
@@ -19,7 +19,15 @@ function Main() {
     return (
         <div>
             <Navbar />
-            <BlogPost />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/menus" element={<Menus />} />
+                <Route path="/product" element={<ProductDetails />} />
+                <Route path="lieferanten" element={<Lieferanten />} />
+                <Route path="/koche" element={<Koche />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/faq" element={<Faq />} />
+            </Routes>
         </div>
     );
 }
