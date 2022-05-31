@@ -1,0 +1,108 @@
+.root {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 5em;
+}
+
+.bigTitle {
+  font-size: 36px;
+  margin: 0.8em;
+}
+
+.mainTitle {
+  font-size: 36px;
+  margin-top: 0.5em;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.orangeText {
+  color: #f89b1b;
+}
+
+.text {
+  font-weight: 500;
+}
+
+.container {
+  height: 95%;
+  width: 95%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 2em;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-block: 2em;
+}
+
+.image {
+  height: 80px;
+  margin-bottom: 2em;
+}
+
+.backButton {
+  border-style: none;
+  color: #fff;
+  height: 60px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #ea4c46;
+  opacity: 0.9;
+}
+
+.forwardButton {
+  border-style: none;
+  color: #fff;
+  height: 60px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #f89b1b;
+}
+
+.checkbox {
+  margin-block: 1em;
+}
+
+.label {
+  margin-left: 0.5em;
+  font-size: 24px;
+  margin-block: 2em;
+  font-weight: 500;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.input {
+  height: 40px;
+  padding-left: 12px;
+  width: 200px;
+  border-radius: 12px;
+  border: 1px solid #c3c3c3;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+/*# sourceMappingURL=CheckoutStepThree.module.css.map */

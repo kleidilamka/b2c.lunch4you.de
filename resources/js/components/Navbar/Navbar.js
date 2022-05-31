@@ -25,6 +25,7 @@ const Navbar = () => {
                                 marginLeft: 10,
                                 marginTop: 5,
                             }}
+                            class={styles.titles}
                         >
                             FRISCH GEKOCHT, DIREKT ZU DIR NACH HAUSE!
                         </h2>
@@ -37,6 +38,7 @@ const Navbar = () => {
                                 marginLeft: 10,
                                 marginTop: 5,
                             }}
+                            class={styles.titles}
                         >
                             EXPRESSVERSAND IN DEUTSCHLAND
                         </h2>
@@ -64,32 +66,44 @@ const Navbar = () => {
                     </Link>
                     <Link to="/menus" class={styles.removeUnderline}>
                         <div>
-                            <h2 class={styles.font}>UNSERE MENÜS</h2>
+                            <h2 class={`${styles.navTitle} ${styles.font}`}>
+                                UNSERE MENÜS
+                            </h2>
                         </div>
                     </Link>
                     <Link to="/lieferanten" class={styles.removeUnderline}>
                         <div>
-                            <h2 class={styles.font}>LIEFERANTEN</h2>
+                            <h2 class={`${styles.navTitle} ${styles.font}`}>
+                                LIEFERANTEN
+                            </h2>
                         </div>
                     </Link>
                     <Link to="/koche" class={styles.removeUnderline}>
                         <div>
-                            <h2 class={styles.font}>KÖCHE</h2>
+                            <h2 class={`${styles.navTitle} ${styles.font}`}>
+                                KÖCHE
+                            </h2>
                         </div>
                     </Link>
                     <Link to="/blog" class={styles.removeUnderline}>
                         <div>
-                            <h2 class={styles.font}>BLOG</h2>
+                            <h2 class={`${styles.navTitle} ${styles.font}`}>
+                                BLOG
+                            </h2>
                         </div>
                     </Link>
                     <Link to="/faq" class={styles.removeUnderline}>
                         <div>
-                            <h2 class={styles.font}>FAQ</h2>
+                            <h2 class={`${styles.navTitle} ${styles.font}`}>
+                                FAQ
+                            </h2>
                         </div>
                     </Link>
 
                     <div>
-                        <h2 class={styles.font}>KONTAKT</h2>
+                        <h2 class={`${styles.navTitle} ${styles.font}`}>
+                            KONTAKT
+                        </h2>
                     </div>
                 </div>
                 <Link to="/checkout">

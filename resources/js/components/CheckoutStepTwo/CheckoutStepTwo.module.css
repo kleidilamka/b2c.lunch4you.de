@@ -1,0 +1,131 @@
+.root {
+  width: 85%;
+}
+
+.signUpContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 5em;
+  padding-bottom: 4em;
+}
+
+.title {
+  font-size: 36px;
+  margin-left: 0.5em;
+  margin-top: 0.3em;
+}
+
+.container {
+  height: 95%;
+  width: 95%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 2em;
+  position: relative;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 2em;
+}
+
+.column {
+  width: 50%;
+}
+
+.input {
+  height: 40px;
+  width: 90%;
+  border: 1px solid #c3c3c3;
+  border-radius: 7px;
+  padding-left: 12px;
+  margin-top: 1em;
+}
+
+.textAreaContainer {
+  width: 95%;
+}
+
+.textArea {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 12px;
+  border: 1px solid #c3c3c3;
+  border-radius: 12px;
+  margin-top: 2em;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 96%;
+  margin-top: 2em;
+}
+
+.backButton {
+  border-style: none;
+  color: #fff;
+  height: 60px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #ea4c46;
+  opacity: 0.9;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.forwardButton {
+  border-style: none;
+  color: #fff;
+  height: 60px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #f89b1b;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.forgetPassword {
+  margin-top: 1em;
+  position: absolute;
+  text-align: right;
+  width: 96%;
+  font-size: 18px;
+  color: #f89b1b;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.inputTitle {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 36px;
+}
+/*# sourceMappingURL=CheckoutStepTwo.module.css.map */

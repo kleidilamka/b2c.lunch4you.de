@@ -85,3 +85,46 @@
     text-decoration: none;
     color: inherit;
 }
+
+@media only screen and (max-width: 1024px) {
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+
+    .titles {
+        font-size: 14px;
+    }
+
+    .heartIcon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .expressIcon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .firstRow {
+        height: 40px;
+    }
+
+    .secondRow {
+        height: 40px;
+    }
+
+    .navTitle {
+        font-size: 14px;
+    }
+
+    .navIcon {
+        top: 10px;
+        right: 20px;
+    }
+
+    .navIconOne {
+        top: 10px;
+        right: 50px;
+    }
+}

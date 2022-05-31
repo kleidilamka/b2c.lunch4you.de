@@ -1,0 +1,96 @@
+.root {
+  background-color: #f6f4ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 800px;
+}
+
+.stepsContainer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.dashedLine {
+  width: 35%;
+  border: 1px dotted #f89b1b;
+  border-style: dashed;
+}
+
+.step {
+  border: 2px solid #f89b1b;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  margin-inline: 10px;
+  height: 25px;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 36px;
+  color: #f89b1b;
+  margin-top: 2em;
+}
+
+.bigTitle {
+  font-size: 48px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+.image {
+  height: 200px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+/*# sourceMappingURL=Checkout.module.css.map */

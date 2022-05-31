@@ -1,0 +1,140 @@
+.root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subscribeContainer {
+  padding-top: 3em;
+  background-color: #f89b1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.bigTitle {
+  font-size: 72px;
+  color: white;
+}
+
+.topContainer {
+  background-color: #bd006c;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middleContainer {
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2em 0;
+}
+
+.uppercase {
+  color: #fff;
+  margin-bottom: 0.5em;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 24px;
+}
+
+.lowercase {
+  color: #fff;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 24px;
+}
+
+.image {
+  height: 100px;
+}
+
+.bottomContainer {
+  background-color: #232b36;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1em 0;
+}
+
+.input {
+  border: 1px solid #3c3c3c;
+  height: 50px;
+  width: 45%;
+  border-radius: 12px;
+  padding-left: 12px;
+}
+
+.button {
+  border: 1px solid #fff;
+  height: 50px;
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+/*# sourceMappingURL=Footer.module.css.map */

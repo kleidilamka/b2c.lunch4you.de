@@ -1,0 +1,42 @@
+.foodStylesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.foodStyles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.foodStyleImage {
+  height: 120px;
+  width: 120px;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.label {
+  text-align: center;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+/*# sourceMappingURL=MenuStyles.module.css.map */

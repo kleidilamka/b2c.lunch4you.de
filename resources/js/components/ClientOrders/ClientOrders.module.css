@@ -1,0 +1,49 @@
+.wrapper {
+  width: 70%;
+  height: 100%;
+}
+
+.editProfile {
+  background-color: #fff;
+  min-height: 600px;
+  width: 80%;
+  padding: 2em;
+}
+
+.profileTitle {
+  font-size: 48px;
+  margin-bottom: 0.5em;
+}
+
+.orderContainer {
+  margin-block: 1.5em;
+}
+
+.orderTitle {
+  margin-bottom: 0.5em;
+  font-size: 36px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.orderDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+/*# sourceMappingURL=ClientOrders.module.css.map */

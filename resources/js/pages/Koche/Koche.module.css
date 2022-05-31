@@ -1,0 +1,145 @@
+.root {
+  background-color: #a4cb38;
+  height: 100%;
+}
+
+.bgImage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 4em;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 0.3em;
+}
+
+.text {
+  font-size: 48px;
+  margin-top: 1em;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.bgImage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 4em;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 0.3em;
+}
+
+.text {
+  font-size: 48px;
+  margin-top: 1em;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+.font {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.kocheBackground {
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 4em;
+}
+
+.cookContainer {
+  width: 80%;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cookDetails {
+  width: 55%;
+  background-color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  padding-inline: 2em;
+}
+
+.cookPicture {
+  height: 100%;
+  width: 45%;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=Koche.module.css.map */

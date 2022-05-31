@@ -3,8 +3,15 @@ import styles from "./Blog.module.scss";
 import Food from "../../assets/foodBackground.jpeg";
 import CookersBackground from "../../assets/cookersBackground.jpeg";
 import LongImage from "../../assets/longImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Blog = () => {
+    const navigate = useNavigate();
+
+    const goToBlogPostDetails = () => {
+        navigate("/blogpost");
+    };
+
     return (
         <div class={styles.root}>
             <div class={styles.container}>
@@ -43,7 +50,8 @@ const Blog = () => {
             </div>
             <div class={styles.bottomContainer}>
                 <div class={styles.blogsPostsContainer}>
-                    <div class={styles.blogPost}>
+                    {/* Blog Post One */}
+                    <div class={styles.blogPost} onClick={goToBlogPostDetails}>
                         <img src={Food} class={styles.blogImage} />
                         <div class={styles.blogPostBottomContainer}>
                             <h2
@@ -76,6 +84,7 @@ const Blog = () => {
                             </h4>
                         </div>
                     </div>
+                    {/* Blog Post Two */}
                     <div class={styles.blogPost}>
                         <img src={LongImage} class={styles.blogImage} />
                         <div class={styles.blogPostBottomContainer}>
@@ -109,6 +118,7 @@ const Blog = () => {
                             </h4>
                         </div>
                     </div>
+                    {/* Blog Post Three */}
                     <div class={styles.blogPost}>
                         <img src={CookersBackground} class={styles.blogImage} />
                         <div class={styles.blogPostBottomContainer}>

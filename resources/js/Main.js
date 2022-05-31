@@ -26,6 +26,7 @@ function Main() {
                 <Route path="lieferanten" element={<Lieferanten />} />
                 <Route path="/koche" element={<Koche />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/blogpost" element={<BlogPost />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/checkout" element={<Checkout />} />
             </Routes>

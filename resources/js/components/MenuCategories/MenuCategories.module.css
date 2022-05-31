@@ -1,0 +1,74 @@
+.root {
+  width: 80%;
+}
+
+.categoriesContainer {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 2em;
+  border: 1px solid #f89b1b;
+  border-radius: 12px;
+  text-align: start;
+}
+
+.topContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f89b1b;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  color: #fff;
+  height: 40px;
+}
+
+.bottomContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2em;
+}
+
+.inputs {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.label {
+  margin-left: 10px;
+  font-size: 24px;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.ctgTitle {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 32px;
+}
+/*# sourceMappingURL=MenuCategories.module.css.map */

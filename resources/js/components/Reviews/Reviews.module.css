@@ -1,0 +1,67 @@
+.root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+}
+
+.container {
+  background-color: #4e637a;
+  height: 430px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.orangeTitle {
+  font-size: 48px;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.bigTitle {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.starsContainer {
+  color: #f89b1b;
+}
+
+.text {
+  color: #fff;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.bottomText {
+  color: #fff;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=Reviews.module.css.map */
