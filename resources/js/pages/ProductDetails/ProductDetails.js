@@ -16,7 +16,9 @@ const ProductDetails = () => {
                     {/* Top Upper Container */}
                     <div class={styles.topUpperContainer}>
                         <div class={styles.upperLeftContainer}>
-                            <h1 class={styles.font}>THAI-CURRY</h1>
+                            <h1 class={`${styles.title} ${styles.font}`}>
+                                THAI-CURRY
+                            </h1>
                             <h2 class={styles.text}>
                                 Cremig, scharf und einfach ein Genuss! Die
                                 thailän- dische Küche wäre ohne ihr anregendes
@@ -71,7 +73,6 @@ const ProductDetails = () => {
                                         style={{
                                             alignSelf: "center",
                                             marginTop: 10,
-                                            marginRight: 5,
                                             fontSize: 18,
                                         }}
                                     >
@@ -82,7 +83,11 @@ const ProductDetails = () => {
                         </div>
                         <div class={styles.menuStyles}>
                             <img src={HeartIcon} class={styles.menuStyleLogo} />
-                            <h1 class={styles.font}>ASIA STYLE</h1>
+                            <h1
+                                class={`${styles.menuStylesText} ${styles.font}`}
+                            >
+                                ASIA STYLE
+                            </h1>
                         </div>
                     </div>
                 </div>

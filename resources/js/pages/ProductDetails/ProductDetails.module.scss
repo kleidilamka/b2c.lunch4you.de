@@ -7,7 +7,6 @@
 }
 
 .container {
-    // background-color: #fff;
     margin-top: 5em;
     height: 80%;
     width: 60%;
@@ -16,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 .topContainer {
@@ -41,6 +41,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.title {
+    font-size: 36px;
 }
 
 .text {
@@ -76,7 +80,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 2em;
 }
 
 .foodDetailsContainer {
@@ -232,7 +235,35 @@
         width: 80%;
     }
 
-    .topContainer {
-        flex-direction: column;
+    .topUpperContainer {
+        flex-direction: column-reverse;
+    }
+
+    .upperRightContainer {
+        width: 100%;
+    }
+
+    .upperLeftContainer {
+        width: 100%;
+    }
+
+    .menuStyleLogo {
+        display: none;
+    }
+
+    .menuStylesText {
+        display: none;
+    }
+
+    .foodNutritionDetails {
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: 0.5em;
+    }
+
+    .roundedLabel {
+        height: 60px;
+        width: 60px;
+        margin-top: 1em;
     }
 }
