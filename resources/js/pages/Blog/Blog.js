@@ -51,107 +51,42 @@ const Blog = () => {
             <div class={styles.bottomContainer}>
                 <div class={styles.blogsPostsContainer}>
                     {/* Blog Post One */}
-                    <div class={styles.blogPost} onClick={goToBlogPostDetails}>
-                        <img src={Food} class={styles.blogImage} />
-                        <div class={styles.blogPostBottomContainer}>
-                            <h2
-                                class={styles.font}
-                                style={{ marginTop: 12, fontSize: 36 }}
-                            >
-                                ARTIKEL 01
-                            </h2>
-                            <h4 class={`${styles.articleText} ${styles.font}`}>
-                                vendis et venimus
-                            </h4>
-                            <h4 class={`${styles.articleText} ${styles.font}`}>
-                                Sed quid enim dolupta tatiat et mo vent alitatem
-                                utem asperias re eos num sae vendis et alita-
-                                tem utem alitatem.
-                            </h4>
+                    {Array.apply(null, { length: 5 }).map((e, i) => (
+                        <div
+                            class={styles.blogPost}
+                            onClick={goToBlogPostDetails}
+                        >
+                            <img src={Food} class={styles.blogImage} />
+                            <div class={styles.blogPostBottomContainer}>
+                                <h2
+                                    class={styles.font}
+                                    style={{ marginTop: 12, fontSize: 36 }}
+                                >
+                                    ARTIKEL 01
+                                </h2>
+                                <h4
+                                    class={`${styles.articleText} ${styles.font}`}
+                                >
+                                    vendis et venimus
+                                </h4>
+                                <h4
+                                    class={`${styles.articleText} ${styles.font}`}
+                                >
+                                    Sed quid enim dolupta tatiat et mo vent
+                                    alitatem utem asperias re eos num sae vendis
+                                    et alita- tem utem alitatem.
+                                </h4>
+                            </div>
+                            <div class={styles.blogInfoContainer}>
+                                <h4 class={`${styles.infoText} ${styles.font}`}>
+                                    By Admin
+                                </h4>
+                                <h4 class={`${styles.infoText} ${styles.font}`}>
+                                    3 Kommentare
+                                </h4>
+                            </div>
                         </div>
-                        <div class={styles.blogInfoContainer}>
-                            <h4
-                                class={styles.font}
-                                style={{ color: "#8a8d8e", fontSize: 24 }}
-                            >
-                                By Admin
-                            </h4>
-                            <h4
-                                class={styles.font}
-                                style={{ color: "#8a8d8e", fontSize: 24 }}
-                            >
-                                3 Kommentare
-                            </h4>
-                        </div>
-                    </div>
-                    {/* Blog Post Two */}
-                    <div class={styles.blogPost}>
-                        <img src={LongImage} class={styles.blogImage} />
-                        <div class={styles.blogPostBottomContainer}>
-                            <h2
-                                class={styles.font}
-                                style={{ marginTop: 12, fontSize: 36 }}
-                            >
-                                ARTIKEL 02
-                            </h2>
-                            <h4 class={`${styles.articleText} ${styles.font}`}>
-                                vendis et venimus
-                            </h4>
-                            <h4 class={`${styles.articleText} ${styles.font}`}>
-                                Sed quid enim dolupta tatiat et mo vent alitatem
-                                utem asperias re eos num sae vendis et alita-
-                                tem utem alitatem.
-                            </h4>
-                        </div>
-                        <div class={styles.blogInfoContainer}>
-                            <h4
-                                class={styles.font}
-                                style={{ color: "#8a8d8e", fontSize: 24 }}
-                            >
-                                By Admin
-                            </h4>
-                            <h4
-                                class={styles.font}
-                                style={{ color: "#8a8d8e", fontSize: 24 }}
-                            >
-                                3 Kommentare
-                            </h4>
-                        </div>
-                    </div>
-                    {/* Blog Post Three */}
-                    <div class={styles.blogPost}>
-                        <img src={CookersBackground} class={styles.blogImage} />
-                        <div class={styles.blogPostBottomContainer}>
-                            <h2
-                                class={styles.font}
-                                style={{ marginTop: 12, fontSize: 36 }}
-                            >
-                                ARTIKEL 03
-                            </h2>
-                            <h4 class={`${styles.articleText} ${styles.font}`}>
-                                vendis et venimus
-                            </h4>
-                            <h4 class={`${styles.articleText} ${styles.font}`}>
-                                Sed quid enim dolupta tatiat et mo vent alitatem
-                                utem asperias re eos num sae vendis et alita-
-                                tem utem alitatem.
-                            </h4>
-                        </div>
-                        <div class={styles.blogInfoContainer}>
-                            <h4
-                                class={styles.font}
-                                style={{ color: "#8a8d8e", fontSize: 24 }}
-                            >
-                                By Admin
-                            </h4>
-                            <h4
-                                class={styles.font}
-                                style={{ color: "#8a8d8e", fontSize: 24 }}
-                            >
-                                3 Kommentare
-                            </h4>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

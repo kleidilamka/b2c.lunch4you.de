@@ -12,7 +12,8 @@
     align-items: center;
     background-color: #bd006c;
     color: #fff;
-    padding-bottom: 4em;
+    padding-bottom: 1em;
+    border: 1px solid red;
 }
 
 .title {
@@ -24,6 +25,11 @@
     font-size: 48px;
     margin-top: 1em;
     font-weight: 500;
+}
+
+.infoText {
+    font-size: 24px;
+    color: #8a8d8e;
 }
 
 .description {
@@ -59,8 +65,8 @@
 
 .bottomContainer {
     width: 70%;
-    height: 800px;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .blogsPostsContainer {
@@ -74,7 +80,7 @@
 .blogPost {
     width: 30%;
     margin-inline: 1em;
-    margin-block: 1em;
+    margin-top: 2em;
 }
 
 .blogImage {
@@ -105,4 +111,23 @@
     margin-block: 0.5em;
     font-size: 24px;
     font-weight: 400;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .bottomContainer {
+        width: 90%;
+        border: 1px solid green;
+    }
+
+    .blogPost {
+        margin-inline: 10px !important;
+    }
+
+    .articleText {
+        font-size: 18px;
+    }
+
+    .infoText {
+        font-size: 18px;
+    }
 }
