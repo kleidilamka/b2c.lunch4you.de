@@ -7,7 +7,7 @@ import ForkIcon from "../../assets/forkIcon.svg";
 import CheckoutIcon from "../../assets/Checkout_Icon.svg";
 
 const Checkout = () => {
-    const [step, setStep] = useState(2);
+    const [step, setStep] = useState(3);
 
     return (
         <div class={styles.root}>
