@@ -16,6 +16,7 @@
 
 .firstRow {
     height: 60px;
+    position: relative;
     background-color: #232b36;
     display: flex;
     flex-direction: row;
@@ -86,6 +87,10 @@
     color: inherit;
 }
 
+.hamburgerMenu {
+    display: none;
+}
+
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
     .logo {
         height: 70px;
@@ -131,5 +136,72 @@
         right: 45px;
         height: 18px;
         width: 18px;
+    }
+
+    .hamburgerMenu {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .titles {
+        display: none;
+    }
+
+    .navIcon {
+        display: none;
+    }
+
+    .navIconOne {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .secondRow {
+        display: none;
+    }
+
+    .heartIcon {
+        display: none;
+    }
+
+    .expressIcon {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: flex;
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    .menu {
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        background-color: #232b36;
+    }
+
+    .menuContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    .navTitle {
+        margin-top: 0.4em;
+        color: #fff;
     }
 }
