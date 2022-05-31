@@ -1,5 +1,6 @@
 .root {
     width: 100%;
+    border: 1px solid red;
 }
 
 .font {
@@ -21,6 +22,7 @@
     align-items: center;
     margin-top: 2em;
     text-align: center;
+    border: 1px solid green;
 }
 
 .title {
@@ -32,6 +34,7 @@
 .foodStylesList {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .foodStyles {
@@ -63,4 +66,7 @@
 .text {
     font-size: 18px;
     margin-top: 1em;
+}
+
+@media only screen and (max-width: 1024px) {
 }

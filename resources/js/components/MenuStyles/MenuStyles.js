@@ -39,7 +39,7 @@ const data = [
         firstLabel: "INDIAN",
         secondLabel: "STYLE",
     },
-    { id: "6", image: FitStyle, firstLabel: "Fit", secondLabel: "Style" },
+    { id: "6", image: FitStyle, firstLabel: "FIT", secondLabel: "STYLE" },
     {
         id: "7",
         image: CurryProject,

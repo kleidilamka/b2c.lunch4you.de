@@ -53,10 +53,9 @@ const Services = () => {
                     <div class={styles.container}>
                         <img src={item.image} class={styles.image} />
                         <h4
-                            class={styles.text}
+                            class={styles.itemTitle}
                             style={{
                                 color: item.color,
-                                fontSize: 36,
                                 marginTop: 20,
                             }}
                         >

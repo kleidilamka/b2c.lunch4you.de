@@ -7,6 +7,7 @@
     text-align: center;
     background-color: #ededed;
     padding: 3em 0;
+    border: 1px solid purple;
 }
 
 .orangeTitle {
@@ -20,6 +21,10 @@
     font-family: "Alumni Sans", sans-serif;
     font-size: 72px;
     font-weight: 500;
+}
+
+.itemTitle {
+    font-size: 24px;
 }
 
 .servicesList {
@@ -48,4 +53,11 @@
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .image {
+        height: 100px;
+        width: 100px;
+    }
 }
