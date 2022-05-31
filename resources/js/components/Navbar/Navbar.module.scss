@@ -143,7 +143,7 @@
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 501px) {
     .titles {
         display: none;
     }
@@ -177,6 +177,7 @@
     }
 
     .hamburgerMenu {
+        z-index: 1;
         display: flex;
         color: #fff;
         position: absolute;

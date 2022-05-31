@@ -50,3 +50,28 @@
     font-family: "Alumni Sans", sans-serif;
     font-size: 32px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .categoriesContainer {
+        border: 1px solid green;
+    }
+
+    .bottomContainer {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .categories {
+        border: 1px solid yellow;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+}

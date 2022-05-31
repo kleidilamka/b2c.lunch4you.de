@@ -62,3 +62,25 @@
         font-size: 24px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .foodStylesList {
+    }
+
+    .foodStyles {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .foodStyleImage {
+        height: 40px;
+        width: 40px;
+    }
+
+    .label {
+        text-align: center;
+        font-family: "Alumni Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

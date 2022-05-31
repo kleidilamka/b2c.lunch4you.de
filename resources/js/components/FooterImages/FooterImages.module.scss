@@ -1,6 +1,7 @@
 .root {
     display: flex;
     flex-direction: column;
+    border: 1px solid saddlebrown;
 }
 
 .backgroundImage {
@@ -74,5 +75,37 @@
         height: 600px;
         width: 600px;
         margin: auto !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .backgroundImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 300px;
+        margin: auto !important;
+    }
+
+    .coloredTitle {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .title {
+        font-size: 36px;
+        width: 90%;
+        margin-top: 0.3em;
+        font-weight: 600;
+    }
+
+    .text {
+        font-size: 18px;
+        width: 85%;
+        margin-top: 1em;
+        font-weight: 500;
     }
 }

@@ -32,3 +32,33 @@
     width: 85%;
     margin-top: 1em;
 }
+
+@media only screen and (max-width: 480px) {
+    .root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 18px;
+        width: 80%;
+        margin-top: 0.3em;
+    }
+
+    .text {
+        font-size: 14px;
+        width: 85%;
+        margin-top: 1em;
+    }
+
+    .container {
+        height: 50%;
+        width: 80%;
+        margin-right: 0px !important;
+    }
+
+    .coloredTitle {
+        font-size: 18px;
+    }
+}

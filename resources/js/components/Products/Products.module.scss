@@ -27,3 +27,25 @@
 .font {
     font-family: "Alumni Sans", sans-serif;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .orangeTitle {
+        font-family: "Alumni Sans", sans-serif;
+        color: #f89b1b;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .title {
+        font-family: "Alumni Sans", sans-serif;
+        font-size: 36px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .servicesList {
+        flex-direction: column;
+    }
+}

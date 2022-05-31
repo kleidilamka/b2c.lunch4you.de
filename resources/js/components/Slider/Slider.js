@@ -11,7 +11,9 @@ const Slider = () => {
             }}
         >
             <div class={styles.container}>
-                <h2 style={{ color: "#A3F359" }}>MEHR LEBENSQUALITÄT</h2>
+                <h2 class={styles.coloredTitle} style={{ color: "#A3F359" }}>
+                    MEHR LEBENSQUALITÄT
+                </h2>
                 <h2 class={styles.title}>
                     MEHR ZEIT FÜR DICH UND DEINE FAMILIE.
                 </h2>

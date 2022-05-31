@@ -127,3 +127,53 @@
         font-size: 36px;
     }
 }
+
+@media only screen and (max-width: 501px) {
+    .bigTitle {
+        font-size: 28px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .inputTitle {
+        font-size: 24px;
+        margin-top: 1em;
+    }
+
+    .backButton {
+        border-style: none;
+        color: #fff;
+        height: 60px;
+        width: 100px;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #ea4c46;
+        opacity: 0.9;
+        font-family: "Alumni Sans", sans-serif;
+    }
+
+    .forwardButton {
+        border-style: none;
+        color: #fff;
+        height: 60px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: #f89b1b;
+        font-family: "Alumni Sans", sans-serif;
+    }
+
+    .textAreaContainer {
+        width: 100%;
+    }
+
+    .textArea {
+        width: 91%;
+    }
+}
