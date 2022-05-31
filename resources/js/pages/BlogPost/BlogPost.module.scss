@@ -135,3 +135,13 @@
     border-radius: 12px;
     padding-left: 10px;
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .postContainer {
+        width: 90%;
+    }
+
+    .commentsContainer {
+        width: 90%;
+    }
+}
