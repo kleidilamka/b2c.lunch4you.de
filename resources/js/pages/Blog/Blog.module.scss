@@ -113,6 +113,24 @@
     font-weight: 400;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bottomContainer {
+        width: 90%;
+    }
+
+    .blogPost {
+        margin-inline: 10px !important;
+    }
+
+    .articleText {
+        font-size: 18px;
+    }
+
+    .infoText {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .bottomContainer {
         width: 90%;

@@ -116,6 +116,12 @@
     font-size: 36px;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bigTitle {
+        font-size: 36px;
+    }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .bigTitle {
         font-size: 36px;
