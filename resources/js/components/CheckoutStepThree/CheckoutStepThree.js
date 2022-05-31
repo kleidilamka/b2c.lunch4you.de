@@ -5,13 +5,13 @@ import Payments from "../../assets/payments.png";
 const CheckoutStepThree = ({ setStep }) => {
     return (
         <div class={styles.root}>
-            <h2 class={styles.bigTitle}>
+            <h2 class={`${styles.bigTitle} ${styles.font}`}>
                 STEP 1 VON 3: WARENKORB BESTELLÜBERSICHT
             </h2>
             <div class={styles.container}>
                 <hr />
                 <h2 class={`${styles.mainTitle} ${styles.font}`}>
-                    BITTE ÜBERPRÜFE DEINE ANGABEN.{" "}
+                    BITTE ÜBERPRÜFE DEINE ANGABEN.
                 </h2>
                 {/* First Row */}
                 <div class={styles.row}>
@@ -181,13 +181,17 @@ const CheckoutStepThree = ({ setStep }) => {
                     RÜCKSENDUNG EISPACKS
                 </h2>
                 <div class={styles.row}>
-                    <h2 class={`${styles.text} ${styles.font}`}>
+                    <h2 class={`${styles.rucksendText} ${styles.font}`}>
                         Ab einer Menge von 6 Eispacks können Sie uns diese
                         zurück senden.
                     </h2>
-                    <div>
+                    <div style={{ borderWidth: 1, borderColor: "blue" }}>
                         <input type="checkbox" id="scales" name="scales" />
-                        <label class={styles.label} for="scales">
+                        <label
+                            class={`${styles.rucksendText} ${styles.font}`}
+                            style={{ marginLeft: 5 }}
+                            for="scales"
+                        >
                             Rücksendeschein anforden
                         </label>
                     </div>

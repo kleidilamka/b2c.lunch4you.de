@@ -6,10 +6,7 @@ const CheckoutStepTwo = ({ setStep }) => {
         <div class={styles.root}>
             {/* SignUp Container */}
             <div class={`${styles.signUpContainer} ${styles.font}`}>
-                <h2
-                    class={`${styles.title} ${styles.font}`}
-                    style={{ fontSize: 60 }}
-                >
+                <h2 class={`${styles.bigTitle} ${styles.font}`}>
                     STEP 2 VON 3: REGISTRIERUNG ODER ANMELDUNG
                 </h2>
                 <h2></h2>
@@ -18,7 +15,7 @@ const CheckoutStepTwo = ({ setStep }) => {
                     <h2
                         class={styles.font}
                         style={{
-                            fontSize: 48,
+                            fontSize: 36,
                             color: "#f89b1b",
                             marginTop: 32,
                         }}

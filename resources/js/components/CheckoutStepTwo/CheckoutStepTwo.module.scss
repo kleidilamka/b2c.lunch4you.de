@@ -11,6 +11,12 @@
     padding-bottom: 4em;
 }
 
+.bigTitle {
+    font-size: 60px;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+}
+
 .title {
     font-size: 36px;
     margin-left: 0.5em;
@@ -108,4 +114,10 @@
 .inputTitle {
     font-family: "Alumni Sans", sans-serif;
     font-size: 36px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .bigTitle {
+        font-size: 36px;
+    }
 }
