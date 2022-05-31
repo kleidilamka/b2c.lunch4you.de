@@ -55,6 +55,13 @@
     margin-bottom: 2em;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .image {
         height: 100px;

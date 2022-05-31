@@ -102,6 +102,41 @@
     font-family: "Alumni Sans", sans-serif;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .image {
+        height: 150px;
+    }
+
+    .nutritionContainer {
+        height: 30px;
+        width: 30px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .nutritionText {
+        font-size: 18px;
+    }
+
+    .foodCtgList {
+        height: 30px;
+    }
+
+    .foodCtg {
+        padding: 2px;
+        padding-inline: 4px;
+        margin-left: 5px !important;
+    }
+    .foodCtgText {
+        font-size: 16px;
+    }
+    .button {
+        margin-top: 0px !important;
+    }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .image {
         height: 150px;

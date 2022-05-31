@@ -35,6 +35,20 @@
     font-size: 24px;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .foodStyleImage {
+        height: 80px;
+        width: 80px;
+    }
+
+    .label {
+        text-align: center;
+        font-family: "Alumni Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .foodStyleImage {
         height: 55px;
