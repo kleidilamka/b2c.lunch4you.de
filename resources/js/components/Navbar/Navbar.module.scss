@@ -86,14 +86,15 @@
     color: inherit;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .logo {
         height: 70px;
         width: 70px;
+        left: 10px;
     }
 
     .titles {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .heartIcon {
@@ -121,10 +122,14 @@
     .navIcon {
         top: 10px;
         right: 20px;
+        height: 20px;
+        width: 20px;
     }
 
     .navIconOne {
         top: 10px;
-        right: 50px;
+        right: 45px;
+        height: 18px;
+        width: 18px;
     }
 }
