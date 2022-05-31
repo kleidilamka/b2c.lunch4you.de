@@ -33,8 +33,7 @@ const MenuItem = () => {
                                     (e, i) => (
                                         <div class={styles.foodCtg}>
                                             <h4
-                                                class={styles.font}
-                                                style={{ fontSize: 18 }}
+                                                class={`${styles.foodCtgText} ${styles.font}`}
                                             >
                                                 Low Carb
                                             </h4>
@@ -52,17 +51,15 @@ const MenuItem = () => {
                                                 }
                                             >
                                                 <h4
-                                                    class={styles.font}
-                                                    style={{ fontSize: 24 }}
+                                                    class={`${styles.nutritionText} ${styles.font}`}
                                                 >
                                                     103
                                                 </h4>
                                             </div>
                                             <h4
-                                                class={styles.font}
+                                                class={`${styles.nutritionText} ${styles.font}`}
                                                 style={{
                                                     marginTop: 5,
-                                                    fontSize: 24,
                                                 }}
                                             >
                                                 Cal

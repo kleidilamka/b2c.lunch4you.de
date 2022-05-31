@@ -9,7 +9,6 @@
 
 .wrapper {
     width: 33.33333%;
-    margin-top: 2em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,7 +17,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,6 +33,7 @@
 .middleContainer {
     width: 100%;
     text-align: left;
+    border: 1px solid green;
 }
 
 .foodCtgList {
@@ -50,6 +50,10 @@
     padding-inline: 15px;
     border-radius: 12px;
     margin-left: 10px;
+}
+
+.foodCtgText {
+    font-size: 18px;
 }
 
 .nutritionList {
@@ -72,6 +76,10 @@
     margin-top: 1em;
 }
 
+.nutritionText {
+    font-size: 24px;
+}
+
 .text {
     margin-top: 0.5em;
     font-size: 24px;
@@ -92,4 +100,39 @@
 
 .font {
     font-family: "Alumni Sans", sans-serif;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .image {
+        height: 150px;
+    }
+
+    .nutritionContainer {
+        height: 30px;
+        width: 30px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .nutritionText {
+        font-size: 18px;
+    }
+
+    .foodCtgList {
+        height: 30px;
+    }
+
+    .foodCtg {
+        padding: 2px;
+        padding-inline: 4px;
+        margin-left: 5px !important;
+    }
+    .foodCtgText {
+        font-size: 16px;
+    }
+    .button {
+        margin-top: 0px !important;
+    }
 }
