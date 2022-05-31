@@ -13,35 +13,51 @@ const ProductDetails = () => {
             <div class={styles.container}>
                 {/* Top Container */}
                 <div class={styles.topContainer}>
-                    {/* Top Left Container */}
-                    <div class={styles.topLeftContainer}>
-                        <h1 class={styles.font}>THAI-CURRY</h1>
-                        <h2 class={styles.text}>
-                            Cremig, scharf und einfach ein Genuss! Die thailän-
-                            dische Küche wäre ohne ihr anregendes Thai Curry nur
-                            halb so berühmt.
-                        </h2>
-                        <h2 class={styles.text}>
-                            Das saftige Hähnchenbrustfilet, knackiges Gemü- se,
-                            cremige Kokosmilch sowie fluffiger Reis machen
-                            dieses Gericht zu einem echten Sattmacher. Zitro-
-                            nengras, Ingwer und Limette dürfen nicht fehlen und
-                            sorgen für das authentische Thai-Feeling.
-                        </h2>
+                    {/* Top Upper Container */}
+                    <div class={styles.topUpperContainer}>
+                        <div class={styles.upperLeftContainer}>
+                            <h1 class={styles.font}>THAI-CURRY</h1>
+                            <h2 class={styles.text}>
+                                Cremig, scharf und einfach ein Genuss! Die
+                                thailän- dische Küche wäre ohne ihr anregendes
+                                Thai Curry nur halb so berühmt.
+                            </h2>
+                            <h2 class={styles.text}>
+                                Das saftige Hähnchenbrustfilet, knackiges Gemü-
+                                se, cremige Kokosmilch sowie fluffiger Reis
+                                machen dieses Gericht zu einem echten
+                                Sattmacher. Zitro- nengras, Ingwer und Limette
+                                dürfen nicht fehlen und sorgen für das
+                                authentische Thai-Feeling.
+                            </h2>
 
-                        <div class={styles.foodDetailsList}>
-                            {Array.apply(null, { length: 3 }).map((e, i) => (
-                                <div class={styles.foodDetailsContainer}>
-                                    <h5 class={styles.font}>Low Carb</h5>
-                                </div>
-                            ))}
+                            <div class={styles.foodDetailsList}>
+                                {Array.apply(null, { length: 3 }).map(
+                                    (e, i) => (
+                                        <div
+                                            class={styles.foodDetailsContainer}
+                                        >
+                                            <h5 class={styles.font}>
+                                                Low Carb
+                                            </h5>
+                                        </div>
+                                    )
+                                )}
+                            </div>
                         </div>
-                        <h2
-                            class={styles.font}
-                            style={{ marginTop: 30, marginBottom: 20 }}
-                        >
-                            NÄHRWERTE PRO 100 GRAMM
-                        </h2>
+                        <div class={styles.upperRightContainer}>
+                            <img src={Food} class={styles.mainImage} />
+                            <div class={styles.imagesContainer}>
+                                {Array.apply(null, { length: 3 }).map(
+                                    (e, i) => (
+                                        <img src={Food} class={styles.image} />
+                                    )
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                    {/* Top Lower Container */}
+                    <div class={styles.topLowerContainer}>
                         <div class={styles.foodNutritionList}>
                             {Array.apply(null, { length: 5 }).map((e, i) => (
                                 <div class={styles.foodNutritionDetails}>
@@ -62,15 +78,6 @@ const ProductDetails = () => {
                                         PROTEIN
                                     </h5>
                                 </div>
-                            ))}
-                        </div>
-                    </div>
-                    {/* Top Right Container Main Image, Images and Icon Container */}
-                    <div class={styles.topRightContainer}>
-                        <img src={Food} class={styles.mainImage} />
-                        <div class={styles.imagesContainer}>
-                            {Array.apply(null, { length: 3 }).map((e, i) => (
-                                <img src={Food} class={styles.image} />
                             ))}
                         </div>
                         <div class={styles.menuStyles}>
