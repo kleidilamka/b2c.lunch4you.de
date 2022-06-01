@@ -6,7 +6,7 @@ const CheckoutStepThree = ({ setStep }) => {
     return (
         <div class={styles.root}>
             <h2 class={`${styles.bigTitle} ${styles.font}`}>
-                STEP 1 VON 3: WARENKORB BESTELLÜBERSICHT
+                STEP 3 VON 3: WARENKORB BESTELLÜBERSICHT
             </h2>
             <div class={styles.container}>
                 <hr />
